@@ -1,0 +1,216 @@
+<style>
+:root{--indigo:#2b3a67;--coral:#cf6853;--sage:#7a9e7e;--paper:#f5f0e8;--ink:#1e2a4a;--muted:#8b8577;--rule:#d5cfc3;--indigo-10:rgba(43,58,103,0.08);--coral-10:rgba(207,104,83,0.10);--sage-10:rgba(122,158,126,0.10)}
+*{margin:0;padding:0;box-sizing:border-box}
+.page{max-width:72ch;margin:0 auto;padding:1.5em 0 3em;font-family:system-ui,-apple-system,sans-serif;color:var(--ink);line-height:1.6;font-size:15px}
+.page::after{content:'';position:fixed;inset:0;z-index:100;pointer-events:none;opacity:0.02;background-image:radial-gradient(circle,var(--indigo) 0.5px,transparent 0.5px);background-size:4px 4px}
+h1{font-size:1.8em;font-weight:700;color:var(--indigo);letter-spacing:0.03em;margin-bottom:0.15em}
+.subtitle{font-style:italic;color:var(--muted);margin-bottom:1.8em;font-size:0.95em}
+h2{font-size:0.75em;text-transform:uppercase;letter-spacing:0.12em;color:var(--sage);margin-top:2.2em;margin-bottom:0.3em;font-weight:600}
+.section-rule{height:2px;background:linear-gradient(to right,var(--coral),var(--rule) 60%);margin-bottom:1.2em}
+p{margin-bottom:0.8em;font-size:0.95em}
+a{color:var(--coral);text-decoration:none}
+code{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.88em;color:var(--indigo)}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px;margin-bottom:1.8em}
+.stat-card{background:rgba(255,255,255,0.5);border:1px solid var(--rule);border-radius:4px;padding:10px 12px}
+.stat-card .label{font-size:0.7em;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:2px}
+.stat-card .val{font-size:1.25em;font-weight:700;color:var(--indigo)}
+.stat-card .val.coral{color:var(--coral)}
+
+.grids{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:0.8em}
+table.sudoku{border-collapse:collapse;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.85em}
+table.sudoku td{width:28px;height:28px;text-align:center;border:0.5px solid var(--rule)}
+table.sudoku td.given{font-weight:700;color:var(--indigo)}
+table.sudoku td.solved{color:var(--coral);font-weight:500}
+table.sudoku td.box-r{border-right:2px solid var(--ink)}
+table.sudoku td.box-b{border-bottom:2px solid var(--ink)}
+table.sudoku td.box-rb{border-right:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.grid-label{font-size:0.7em;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:4px;font-weight:600}
+
+.tab-bar{display:flex;gap:0;border-bottom:2px solid var(--rule);margin:0 0 12px;flex-wrap:wrap}
+.tab{padding:5px 12px;font-size:0.75em;color:var(--muted);cursor:pointer;text-transform:uppercase;letter-spacing:0.06em;font-weight:600;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s}
+.tab:hover{color:var(--ink)}
+.tab.active{color:var(--sage);border-bottom-color:var(--coral)}
+.tab-panel{display:none}.tab-panel.active{display:block}
+
+.search-log{max-height:400px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;background:rgba(255,255,255,0.4);padding:10px 14px;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em;line-height:1.7}
+.search-log .try{color:var(--sage)}
+.search-log .bt{color:var(--coral)}
+.search-log .info{color:var(--muted);font-style:italic}
+
+.trace-scroll{max-height:320px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;background:rgba(255,255,255,0.4)}
+.trace-tbl{width:100%;border-collapse:collapse;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em}
+.trace-tbl th{text-align:left;font-weight:600;color:var(--sage);font-size:0.72em;text-transform:uppercase;letter-spacing:0.08em;padding:6px 10px;border-bottom:2px solid var(--rule);position:sticky;top:0;background:var(--paper)}
+.trace-tbl td{padding:3px 10px;border-bottom:1px solid rgba(213,207,195,0.5)}
+.trace-tbl tr:hover td{background:var(--indigo-10)}
+.trace-tbl .op{color:var(--indigo);font-weight:500}
+.trace-tbl .num{text-align:right}
+.trace-note{font-size:0.82em;color:var(--muted);margin-bottom:8px;line-height:1.5;font-style:italic}
+
+.bar-wrap{display:flex;align-items:center;gap:8px;margin:3px 0}
+.bar-label{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em;color:var(--muted);width:75px;text-align:right}
+.bar{height:14px;border-radius:2px;min-width:2px}
+.bar-count{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.72em;color:var(--muted)}
+
+.sec-head{display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.chevron{font-size:0.6em;color:var(--coral);transition:transform .15s;display:inline-block;width:14px;text-align:center}
+.chevron.open{transform:rotate(90deg)}
+.sec-body{display:none;padding:4px 0 0 20px}.sec-body.open{display:block}
+
+.prompt-block{background:var(--indigo-10);border-left:3px solid var(--indigo);padding:0.8em 1em;margin:1em 0;font-size:0.82em;line-height:1.5;border-radius:0 4px 4px 0}
+.prompt-block .plabel{font-weight:600;color:var(--indigo);font-size:0.8em;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.3em}
+
+footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--rule);font-size:0.75em;color:var(--muted)}
+</style>
+
+<div class="page">
+<h1>Sudoku Solver</h1>
+<p class="subtitle">Constraint propagation search + compiled transformer verification &mdash; 21 clues, 172 guesses, 162 backtracks</p>
+
+<div class="stats" id="stats"></div>
+
+<h2>Puzzle and solution</h2>
+<div class="section-rule"></div>
+<div class="grids" id="grids"></div>
+
+<h2>Solving process</h2>
+<div class="section-rule"></div>
+<p>Two phases: Norvig&rsquo;s constraint propagation performs the search (guessing values and backtracking when propagation detects contradictions), then the compiled transformer stack machine verifies every placement via constraint checking against heap memory.</p>
+
+<div class="tab-bar" id="tabs"></div>
+<div id="panels"></div>
+
+<div style="margin-top:2.2em">
+<div class="sec">
+  <div class="sec-head" data-sec="ops"><span class="chevron" id="ch-ops">&#9654;</span><h2 style="margin-top:0">Verification opcode frequency</h2></div>
+  <div class="sec-body" id="bd-ops"></div>
+</div>
+</div>
+
+<div class="sec" style="margin-top:0.5em">
+  <div class="sec-head" data-sec="arch"><span class="chevron" id="ch-arch">&#9654;</span><h2 style="margin-top:0">How the machine verifies</h2></div>
+  <div class="sec-body" id="bd-arch">
+    <div class="section-rule" style="margin-top:0.3em"></div>
+    <div class="prompt-block">
+      <div class="plabel">Verification protocol</div>
+      For each of the 60 empty cells, the program writes the solution value to the grid in heap memory, then loads all 20 peer cells (8 row + 8 column + 4 remaining box) and compares each against the placed value. That&rsquo;s <strong>1,200 I32.LOAD</strong> operations and <strong>1,200 EQ</strong> comparisons, each executed as a parabolic attention head lookup on the compiled transformer weights. Any conflict would halt with an error code &mdash; but none do.
+    </div>
+    <p>The 7,147-instruction program is generated analytically: Python computes the peer lists for each cell and emits specific <code>PUSH addr, I32.LOAD, PUSH val, EQ, JNZ fail</code> sequences. The transformer doesn&rsquo;t need to &ldquo;understand&rdquo; Sudoku &mdash; its compiled weights implement exact memory lookup and comparison.</p>
+  </div>
+</div>
+
+<footer>
+  Search: <a href="https://norvig.com/sudoku.html">Norvig constraint propagation</a> &middot;
+  Verification: <a href="https://github.com/oaustegard/llm-as-computer">llm-as-computer</a> compiled transformer &middot; Mojo backend
+</footer>
+</div>
+
+<script>
+const P=[8,0,0,0,0,0,0,0,0,0,0,3,6,0,0,0,0,0,0,7,0,0,9,0,2,0,0,0,5,0,0,0,7,0,0,0,0,0,0,0,4,5,7,0,0,0,0,0,1,0,0,0,3,0,0,0,1,0,0,0,0,6,8,0,0,8,5,0,0,0,1,0,0,9,0,0,0,0,4,0,0];
+const S=[8,1,2,7,5,3,6,4,9,9,4,3,6,8,2,1,7,5,6,7,5,4,9,1,2,8,3,1,5,4,2,3,7,8,9,6,3,6,9,8,4,5,7,2,1,2,8,7,1,6,9,5,3,4,5,2,1,9,7,4,3,6,8,4,3,8,5,2,6,9,1,7,7,9,6,3,1,8,4,5,2];
+const SE=[[0,0,3,"H7"],[0,1,5,"G7"],[0,2,2,"I8"],[0,3,1,"B9"],[0,4,6,"A7"],[0,5,3,"A9"],[1,5,3,"A9"],[0,5,4,"A9"],[1,5,4,"A9"],[1,4,6,"A7"],[0,4,9,"A7"],[1,4,9,"A7"],[1,3,1,"B9"],[0,3,4,"B9"],[0,4,1,"B2"],[0,5,2,"B6"],[0,6,5,"B1"],[1,6,5,"B1"],[0,6,9,"B1"],[1,6,9,"B1"],[1,5,2,"B6"],[0,5,8,"B6"],[1,5,8,"B6"],[1,4,1,"B2"],[0,4,2,"B2"],[0,5,1,"B6"],[0,6,5,"B1"],[1,6,5,"B1"],[0,6,9,"B1"],[1,6,9,"B1"],[1,5,1,"B6"],[0,5,8,"B6"],[0,6,5,"A8"],[0,7,1,"B1"],[1,7,1,"B1"],[0,7,9,"B1"],[1,7,9,"B1"],[1,6,5,"A8"],[0,6,7,"A8"],[1,6,7,"A8"],[1,5,8,"B6"],[1,4,2,"B2"],[1,3,4,"B9"],[1,2,2,"I8"],[0,2,7,"I8"],[0,3,1,"E9"],[0,4,4,"B9"],[1,4,4,"B9"],[0,4,7,"B9"],[0,5,4,"D9"],[0,6,3,"A9"],[1,6,3,"A9"],[0,6,6,"A9"],[0,7,1,"A7"],[0,8,2,"A2"],[0,9,3,"A6"],[0,10,4,"A4"],[1,10,4,"A4"],[0,10,7,"A4"],[0,11,4,"A3"],[1,11,4,"A3"],[0,11,9,"A3"],[1,11,9,"A3"],[1,10,7,"A4"],[1,9,3,"A6"],[0,9,4,"A6"],[1,9,4,"A6"],[1,8,2,"A2"],[0,8,4,"A2"],[1,8,4,"A2"],[1,7,1,"A7"],[0,7,9,"A7"],[1,7,9,"A7"],[1,6,6,"A9"],[1,5,4,"D9"],[0,5,6,"D9"],[0,6,5,"A8"],[1,6,5,"A8"],[0,6,9,"A8"],[0,7,3,"A9"],[1,7,3,"A9"],[0,7,4,"A9"],[1,7,4,"A9"],[1,6,9,"A8"],[1,5,6,"D9"],[1,4,7,"B9"],[1,3,1,"E9"],[0,3,6,"E9"],[0,4,1,"D9"],[0,5,2,"B2"],[0,6,1,"A2"],[0,7,4,"A3"],[0,8,2,"A6"],[1,8,2,"A6"],[0,8,3,"A6"],[1,8,3,"A6"],[1,7,4,"A3"],[0,7,5,"A3"],[1,7,5,"A3"],[1,6,1,"A2"],[0,6,4,"A2"],[1,6,4,"A2"],[1,5,2,"B2"],[0,5,4,"B2"],[1,5,4,"B2"],[1,4,1,"D9"],[0,4,4,"D9"],[0,5,8,"B7"],[0,6,1,"B9"],[1,6,1,"B9"],[0,6,7,"B9"],[0,7,1,"A9"],[0,8,2,"A2"],[0,9,3,"A6"],[0,10,4,"A4"],[1,10,4,"A4"],[0,10,7,"A4"],[0,11,4,"A3"],[1,11,4,"A3"],[0,11,9,"A3"],[1,11,9,"A3"],[1,10,7,"A4"],[1,9,3,"A6"],[0,9,4,"A6"],[1,9,4,"A6"],[1,8,2,"A2"],[0,8,4,"A2"],[1,8,4,"A2"],[1,7,1,"A9"],[0,7,3,"A9"],[0,8,4,"C8"],[0,9,1,"A2"],[1,9,1,"A2"],[0,9,2,"A2"],[1,9,2,"A2"],[1,8,4,"C8"],[0,8,5,"C8"],[0,9,4,"A8"],[1,9,4,"A8"],[0,9,9,"A8"],[1,9,9,"A8"],[1,8,5,"C8"],[1,7,3,"A9"],[1,6,7,"B9"],[1,5,8,"B7"],[0,5,9,"B7"],[1,5,9,"B7"],[1,4,4,"D9"],[1,3,6,"E9"],[1,2,7,"I8"],[1,1,5,"G7"],[0,1,9,"G7"],[0,2,2,"H9"],[0,3,4,"H2"],[0,4,1,"B2"],[0,5,2,"A2"],[0,6,4,"B1"],[1,6,4,"B1"],[0,6,9,"B1"],[0,7,5,"B7"],[1,7,5,"B7"],[0,7,8,"B7"],[0,8,2,"B6"],[0,9,1,"A6"],[1,9,1,"A6"],[0,9,3,"A6"],[1,9,3,"A6"],[1,8,2,"B6"],[0,8,4,"B6"],[1,8,4,"B6"],[1,7,8,"B7"],[1,6,9,"B1"],[1,5,2,"A2"],[0,5,6,"A2"],[1,5,6,"A2"],[1,4,1,"B2"],[0,4,2,"B2"],[0,5,1,"A2"],[0,6,5,"A7"],[1,6,5,"A7"],[0,6,6,"A7"],[0,7,4,"B1"],[1,7,4,"B1"],[0,7,9,"B1"],[0,8,4,"A3"],[1,8,4,"A3"],[0,8,5,"A3"],[0,9,1,"B7"],[1,9,1,"B7"],[0,9,8,"B7"],[1,9,8,"B7"],[1,8,5,"A3"],[1,7,9,"B1"],[1,6,6,"A7"],[1,5,1,"A2"],[0,5,6,"A2"],[0,6,1,"A7"],[0,7,2,"A6"],[1,7,2,"A6"],[0,7,4,"A6"],[1,7,4,"A6"],[1,6,1,"A7"],[0,6,5,"A7"],[1,6,5,"A7"],[1,5,6,"A2"],[1,4,2,"B2"],[1,3,4,"H2"],[0,3,6,"H2"],[1,3,6,"H2"],[1,2,2,"H9"],[0,2,7,"H9"],[0,3,2,"H5"],[1,3,2,"H5"],[0,3,6,"H5"],[0,4,2,"F5"],[0,5,3,"D5"],[0,6,1,"A5"],[0,7,5,"A7"],[1,7,5,"A7"],[0,7,6,"A7"],[1,7,6,"A7"],[1,6,1,"A5"],[0,6,5,"A5"],[0,7,1,"A7"],[1,7,1,"A7"],[0,7,6,"A7"],[1,7,6,"A7"],[1,6,5,"A5"],[1,5,3,"D5"],[0,5,8,"D5"],[0,6,3,"D4"],[0,7,4,"C4"],[0,8,2,"A4"],[1,8,2,"A4"],[0,8,7,"A4"],[0,9,1,"B5"],[1,9,1,"B5"],[0,9,5,"B5"],[0,10,1,"A5"],[0,11,2,"A6"],[1,11,2,"A6"],[0,11,3,"A6"],[1,11,3,"A6"],[1,10,1,"A5"],[0,10,3,"A5"],[0,11,1,"A6"],[1,11,1,"A6"],[0,11,2,"A6"],[0,12,1,"B6"],[1,12,1,"B6"],[0,12,8,"B6"],[1,12,8,"B6"],[1,11,2,"A6"],[1,10,3,"A5"],[1,9,5,"B5"],[1,8,7,"A4"],[1,7,4,"C4"],[0,7,8,"C4"],[1,7,8,"C4"],[1,6,3,"D4"],[0,6,9,"D4"],[0,7,1,"B5"],[1,7,1,"B5"],[0,7,5,"B5"],[0,8,1,"A5"],[0,9,2,"A6"],[1,9,2,"A6"],[0,9,3,"A6"],[1,9,3,"A6"],[1,8,1,"A5"],[0,8,3,"A5"],[0,9,1,"A6"],[1,9,1,"A6"],[0,9,2,"A6"],[0,10,1,"B6"],[1,10,1,"B6"],[0,10,8,"B6"],[1,10,8,"B6"],[1,9,2,"A6"],[1,8,3,"A5"],[1,7,5,"B5"],[1,6,9,"D4"],[1,5,8,"D5"],[1,4,2,"F5"],[0,4,8,"F5"],[1,4,8,"F5"],[1,3,6,"H5"],[1,2,7,"H9"],[1,1,9,"G7"],[1,0,3,"H7"],[0,0,9,"H7"],[0,1,3,"G7"],[0,2,2,"G2"],[0,3,1,"B2"],[0,4,4,"A2"],[0,5,2,"A3"],[0,6,1,"A6"],[0,7,2,"B5"],[1,7,2,"B5"],[0,7,8,"B5"],[1,7,8,"B5"],[1,6,1,"A6"],[0,6,3,"A6"],[0,7,1,"A7"],[0,8,2,"B5"],[1,8,2,"B5"],[0,8,8,"B5"],[1,8,8,"B5"],[1,7,1,"A7"],[0,7,6,"A7"],[0,8,2,"B5"],[1,8,2,"B5"],[0,8,8,"B5"],[1,8,8,"B5"],[1,7,6,"A7"],[1,6,3,"A6"],[1,5,2,"A3"],[0,5,9,"A3"],[1,5,9,"A3"],[1,4,4,"A2"],[0,4,6,"A2"],[1,4,6,"A2"],[1,3,1,"B2"],[0,3,4,"B2"],[0,4,1,"A2"],[0,5,2,"A3"],[0,6,3,"A5"],[1,6,3,"A5"],[0,6,5,"A5"],[0,7,3,"A6"],[0,8,4,"A8"],[0,9,2,"B5"],[1,9,2,"B5"],[0,9,8,"B5"]];
+const TH=[{s:0,op:"PUSH 0",sp:1,top:0},{s:1,op:"PUSH 8",sp:2,top:8},{s:2,op:"I32.STORE",sp:0,top:0},{s:3,op:"PUSH 1",sp:1,top:1},{s:4,op:"PUSH 0",sp:2,top:0},{s:5,op:"I32.STORE",sp:0,top:0},{s:6,op:"PUSH 2",sp:1,top:2},{s:7,op:"PUSH 0",sp:2,top:0},{s:8,op:"I32.STORE",sp:0,top:0},{s:9,op:"PUSH 3",sp:1,top:3},{s:10,op:"PUSH 0",sp:2,top:0},{s:11,op:"I32.STORE",sp:0,top:0},{s:12,op:"PUSH 4",sp:1,top:4},{s:13,op:"PUSH 0",sp:2,top:0},{s:14,op:"I32.STORE",sp:0,top:0}];
+const TM=[{s:2262,op:"PUSH 1",sp:2,top:1},{s:2263,op:"EQ",sp:1,top:0},{s:2264,op:"JNZ 2424",sp:0,top:0},{s:2265,op:"PUSH 24",sp:1,top:24},{s:2266,op:"I32.LOAD",sp:1,top:2},{s:2267,op:"PUSH 1",sp:2,top:1},{s:2268,op:"EQ",sp:1,top:0},{s:2269,op:"JNZ 2424",sp:0,top:0},{s:2270,op:"PUSH 25",sp:1,top:25},{s:2271,op:"I32.LOAD",sp:1,top:0},{s:2272,op:"PUSH 1",sp:2,top:1},{s:2273,op:"EQ",sp:1,top:0},{s:2274,op:"JNZ 2424",sp:0,top:0},{s:2275,op:"PUSH 26",sp:1,top:26},{s:2276,op:"I32.LOAD",sp:1,top:0}];
+const TT=[{s:6772,op:"EQ",sp:1,top:0},{s:6773,op:"JNZ 7139",sp:0,top:0},{s:6774,op:"PUSH 79",sp:1,top:79},{s:6775,op:"I32.LOAD",sp:1,top:5},{s:6776,op:"PUSH 2",sp:2,top:2},{s:6777,op:"EQ",sp:1,top:0},{s:6778,op:"JNZ 7139",sp:0,top:0},{s:6779,op:"LOCAL.GET 8",sp:1,top:59},{s:6780,op:"PUSH 1",sp:2,top:1},{s:6781,op:"ADD",sp:1,top:60},{s:6782,op:"LOCAL.SET 8",sp:0,top:0},{s:6783,op:"PUSH 1",sp:1,top:1},{s:6784,op:"JNZ 7145",sp:0,top:0},{s:6785,op:"LOCAL.GET 8",sp:1,top:60},{s:6786,op:"HALT",sp:1,top:60}];
+const OPS=[["PUSH",2803],["JNZ",1260],["I32.LOAD",1200],["EQ",1200],["I32.STORE",141],["LOCAL.SET",61],["LOCAL.GET",61],["ADD",60],["HALT",1]];
+
+document.getElementById('stats').innerHTML = [
+  {l:'clues',v:21},{l:'empty cells',v:60},{l:'search guesses',v:172,c:1},{l:'backtracks',v:162,c:1},
+  {l:'max depth',v:12},{l:'instructions',v:'7,147'},{l:'steps',v:'6,787'},{l:'backend',v:'mojo'}
+].map(s=>`<div class="stat-card"><div class="label">${s.l}</div><div class="val${s.c?' coral':''}">${s.v}</div></div>`).join('');
+
+function mkGrid(vals, puzzle, id) {
+  let h = `<div><div class="grid-label">${id}</div><table class="sudoku">`;
+  for (let r = 0; r < 9; r++) {
+    h += '<tr>';
+    for (let c = 0; c < 9; c++) {
+      const i = r*9+c;
+      const v = vals[i] || '';
+      const cls = [];
+      if (puzzle[i]) cls.push('given'); else if (v) cls.push('solved');
+      if (c % 3 === 2 && c < 8) cls.push('box-r');
+      if (r % 3 === 2 && r < 8) cls.push('box-b');
+      h += `<td class="${cls.join(' ')}">${v || '\u00b7'}</td>`;
+    }
+    h += '</tr>';
+  }
+  return h + '</table></div>';
+}
+document.getElementById('grids').innerHTML = mkGrid(P, P, 'Puzzle (21 clues)') + mkGrid(S, P, 'Solution (verified)');
+
+function tbl(rows) {
+  let h = '<div class="trace-scroll"><table class="trace-tbl"><tr><th>step</th><th>opcode</th><th>sp</th><th>top</th></tr>';
+  rows.forEach(r => {
+    h += `<tr><td class="num">${r.s.toLocaleString()}</td><td class="op">${r.op}</td><td class="num">${r.sp}</td><td class="num">${r.top.toLocaleString()}</td></tr>`;
+  });
+  return h + '</table></div>';
+}
+
+function mkSearch() {
+  let h = '<div class="search-log">';
+  h += '<div class="info">Puzzle loaded \u2014 21 clues given.</div>';
+  h += '<div class="info">Propagated constraints \u2014 21 of 81 cells resolved so far.</div>';
+  h += '<div class="info">Need to search. Starting depth-first exploration...</div>';
+  let maxShow = 120;
+  SE.slice(0, maxShow).forEach(e => {
+    const pad = '\u00a0\u00a0'.repeat(Math.min(e[1], 8));
+    if (e[0] === 0) {
+      h += `<div class="try">${pad}Trying ${e[2]} at ${e[3]}.</div>`;
+    } else {
+      h += `<div class="bt">${pad}Undoing ${e[3]}. Going back up.</div>`;
+    }
+  });
+  if (SE.length > maxShow) {
+    h += `<div class="info">\u2026 (${SE.length - maxShow} more events) \u2026</div>`;
+    SE.slice(-20).forEach(e => {
+      const pad = '\u00a0\u00a0'.repeat(Math.min(e[1], 8));
+      if (e[0] === 0) h += `<div class="try">${pad}Trying ${e[2]} at ${e[3]}.</div>`;
+      else h += `<div class="bt">${pad}Undoing ${e[3]}. Going back up.</div>`;
+    });
+  }
+  h += '<div class="info">All cells filled. Solution found!</div>';
+  return h + '</div>';
+}
+
+const tabs = [
+  {id:'search', label:'Search narration', content: mkSearch, note:'Norvig\'s constraint propagation with backtracking. Each guess triggers full elimination; contradictions (empty candidate sets) cause backtracks. 172 guesses, 162 dead ends, max depth 12.'},
+  {id:'init', label:'Grid loading', content: ()=>tbl(TH), note:'Storing the 9\u00d79 grid into heap addresses 0\u201380. Given cells get their values; empties get 0.'},
+  {id:'verify', label:'Peer checking', content: ()=>tbl(TM), note:'Mid-verification: checking peers of a cell. PUSH addr \u2192 I32.LOAD (read peer from heap) \u2192 PUSH val \u2192 EQ (compare) \u2192 JNZ fail (branch if conflict). 20 peers per cell, 60 cells = 1,200 checks.'},
+  {id:'done', label:'Result', content: ()=>tbl(TT), note:'Final steps: last peer check passes, counter increments to 60, HALT returns 60 (all placements verified).'},
+];
+
+let th = '', tp = '';
+tabs.forEach((t, i) => {
+  const a = i === 0 ? ' active' : '';
+  th += `<div class="tab${a}" data-tab="${t.id}">${t.label}</div>`;
+  tp += `<div class="tab-panel${a}" id="tp-${t.id}"><p class="trace-note">${t.note}</p>${t.content()}</div>`;
+});
+document.getElementById('tabs').innerHTML = th;
+document.getElementById('panels').innerHTML = tp;
+
+document.getElementById('tabs').addEventListener('click', e => {
+  const t = e.target.closest('.tab'); if (!t) return;
+  document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(x => x.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById('tp-' + t.dataset.tab).classList.add('active');
+});
+
+const mxO = OPS[0][1];
+const opC = ['var(--indigo)','var(--sage)','var(--coral)','var(--coral)','var(--indigo)','var(--sage)','var(--sage)','var(--muted)','var(--coral)'];
+let oh = '<div class="section-rule" style="margin-top:0.3em"></div>';
+OPS.forEach(([name, count], i) => {
+  const w = Math.round(count / mxO * 100);
+  const pct = (count / 6787 * 100).toFixed(1);
+  oh += `<div class="bar-wrap"><span class="bar-label">${name}</span><div class="bar" style="width:${w}%;background:${opC[i] || 'var(--muted)'};opacity:0.7"></div><span class="bar-count">${count.toLocaleString()} (${pct}%)</span></div>`;
+});
+document.getElementById('bd-ops').innerHTML = oh;
+
+document.querySelectorAll('.sec-head').forEach(h => {
+  h.addEventListener('click', () => {
+    const s = h.dataset.sec;
+    document.getElementById('ch-' + s).classList.toggle('open');
+    document.getElementById('bd-' + s).classList.toggle('open');
+  });
+});
+</script>

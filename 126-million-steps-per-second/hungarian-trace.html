@@ -1,0 +1,263 @@
+<style>
+:root {
+  --indigo: #2b3a67;
+  --coral: #cf6853;
+  --sage: #7a9e7e;
+  --paper: #f5f0e8;
+  --ink: #1e2a4a;
+  --muted: #8b8577;
+  --rule: #d5cfc3;
+  --indigo-10: rgba(43,58,103,0.08);
+  --coral-10: rgba(207,104,83,0.10);
+  --sage-10: rgba(122,158,126,0.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+.page{
+  max-width:72ch;margin:0 auto;padding:1.5em 0 3em;
+  font-family:system-ui,-apple-system,sans-serif;
+  color:var(--ink);line-height:1.6;font-size:15px;
+  position:relative;
+}
+.page::after{
+  content:'';position:fixed;inset:0;z-index:100;pointer-events:none;opacity:0.02;
+  background-image:radial-gradient(circle,var(--indigo) 0.5px,transparent 0.5px);
+  background-size:4px 4px;
+}
+
+h1{font-size:1.8em;font-weight:700;color:var(--indigo);letter-spacing:0.03em;margin-bottom:0.15em}
+.subtitle{font-style:italic;color:var(--muted);margin-bottom:1.8em;font-size:0.95em}
+h2{font-size:0.75em;text-transform:uppercase;letter-spacing:0.12em;color:var(--sage);margin-top:2.2em;margin-bottom:0.3em;font-weight:600}
+.section-rule{height:2px;background:linear-gradient(to right,var(--coral),var(--rule) 60%);margin-bottom:1.2em}
+p{margin-bottom:0.8em;font-size:0.95em}
+a{color:var(--coral);text-decoration:none}
+a:hover{color:var(--indigo);text-decoration:underline}
+code{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.88em;color:var(--indigo)}
+
+.stats{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
+  gap:10px;margin-bottom:1.8em;
+}
+.stat-card{
+  background:rgba(255,255,255,0.5);border:1px solid var(--rule);
+  border-radius:4px;padding:10px 12px;
+}
+.stat-card .label{font-size:0.7em;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:2px}
+.stat-card .val{font-size:1.35em;font-weight:700;color:var(--indigo)}
+.stat-card .val.coral{color:var(--coral)}
+
+.matrix-wrap{overflow-x:auto;margin-bottom:0.8em}
+table.mtx{border-collapse:collapse;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em}
+table.mtx td,table.mtx th{padding:4px 7px;text-align:right;border:1px solid var(--rule)}
+table.mtx th{font-weight:600;color:var(--muted);font-size:0.75em;background:rgba(255,255,255,0.4)}
+table.mtx td.hit{background:var(--coral-10);color:var(--coral);font-weight:700}
+
+.assign-note{font-size:0.85em;color:var(--muted);margin-bottom:0}
+.assign-note strong{color:var(--coral);font-weight:700}
+
+.tab-bar{display:flex;gap:0;border-bottom:2px solid var(--rule);margin:0 0 12px;flex-wrap:wrap}
+.tab{
+  padding:5px 12px;font-size:0.75em;color:var(--muted);cursor:pointer;
+  text-transform:uppercase;letter-spacing:0.06em;font-weight:600;
+  border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s;
+}
+.tab:hover{color:var(--ink)}
+.tab.active{color:var(--sage);border-bottom-color:var(--coral)}
+.tab-panel{display:none}.tab-panel.active{display:block}
+
+.trace-scroll{max-height:320px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;background:rgba(255,255,255,0.4)}
+.trace-tbl{width:100%;border-collapse:collapse;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em}
+.trace-tbl th{
+  text-align:left;font-weight:600;color:var(--sage);font-size:0.72em;
+  text-transform:uppercase;letter-spacing:0.08em;
+  padding:6px 10px;border-bottom:2px solid var(--rule);
+  position:sticky;top:0;background:var(--paper);
+}
+.trace-tbl td{padding:3px 10px;border-bottom:1px solid rgba(213,207,195,0.5)}
+.trace-tbl tr:hover td{background:var(--indigo-10)}
+.trace-tbl .op{color:var(--indigo);font-weight:500}
+.trace-tbl .num{text-align:right}
+.trace-note{font-size:0.82em;color:var(--muted);margin-bottom:8px;line-height:1.5;font-style:italic}
+
+.iter-row{display:flex;align-items:center;gap:8px;margin:3px 0}
+.iter-label{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em;color:var(--muted);width:28px;text-align:right}
+.iter-bar{height:14px;border-radius:2px}
+.iter-steps{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.72em;color:var(--muted)}
+
+.bar-wrap{display:flex;align-items:center;gap:8px;margin:3px 0}
+.bar-label{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.78em;color:var(--muted);width:85px;text-align:right}
+.bar{height:14px;border-radius:2px;min-width:2px}
+.bar-count{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:0.72em;color:var(--muted)}
+
+.sec-head{display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.chevron{
+  font-size:0.6em;color:var(--coral);transition:transform .15s;
+  display:inline-block;width:14px;text-align:center;
+}
+.chevron.open{transform:rotate(90deg)}
+.sec-body{display:none;padding:4px 0 0 20px}.sec-body.open{display:block}
+
+.prompt-block{
+  background:var(--indigo-10);border-left:3px solid var(--indigo);
+  padding:0.8em 1em;margin:1em 0;font-size:0.82em;line-height:1.5;
+  border-radius:0 4px 4px 0;color:var(--ink);
+}
+.prompt-block .plabel{font-weight:600;color:var(--indigo);font-size:0.8em;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.3em}
+
+footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--rule);font-size:0.75em;color:var(--muted)}
+</style>
+
+<div class="page">
+
+<h1>Hungarian Algorithm</h1>
+<p class="subtitle">Min-cost perfect matching on a 10&times;10 matrix, executed on a compiled transformer stack machine</p>
+
+<div class="stats" id="stats"></div>
+
+<h2>Cost matrix</h2>
+<div class="section-rule"></div>
+<p>Optimal cells highlighted. Every value lives in the stack machine&rsquo;s heap at addresses 0&ndash;99, stored by parabolic attention writes during initialization.</p>
+<div class="matrix-wrap" id="mtx"></div>
+<p class="assign-note" id="asgn"></p>
+
+<h2>Execution trace</h2>
+<div class="section-rule"></div>
+<p>Each row is one step on the compiled transformer &mdash; a parabolic attention head fires, fetches an instruction or reads memory, and the stack/locals mutate. 23,167 steps total; shown here in phases.</p>
+<div class="tab-bar" id="tabs"></div>
+<div id="panels"></div>
+
+<h2>Iteration profile</h2>
+<div class="section-rule"></div>
+<p>The algorithm loops once per matrix row. Later rows require longer augmenting-path searches as more columns are already assigned.</p>
+<div id="iters"></div>
+
+<div style="margin-top:2.2em">
+<div class="sec">
+  <div class="sec-head" data-sec="ops"><span class="chevron" id="ch-ops">&#9654;</span><h2 style="margin-top:0">Opcode frequency</h2></div>
+  <div class="sec-body" id="bd-ops"></div>
+</div>
+</div>
+
+<div class="sec" style="margin-top:0.5em">
+  <div class="sec-head" data-sec="arch"><span class="chevron" id="ch-arch">&#9654;</span><h2 style="margin-top:0">How the machine works</h2></div>
+  <div class="sec-body" id="bd-arch">
+    <div class="section-rule" style="margin-top:0.3em"></div>
+    <div class="prompt-block">
+      <div class="plabel">The key insight</div>
+      Parabolic encoding <code>k = (2j, &minus;j&sup2;)</code> makes dot-product attention peak sharply at a target position. The same mechanism addresses program memory (instruction fetch), the stack, local variables, and the heap. The transformer&rsquo;s weights <em>are</em> the interpreter &mdash; compiled analytically, not trained.
+    </div>
+    <p>The Hungarian algorithm uses all three memory spaces: the <strong style="color:var(--indigo)">heap</strong> (100 cost entries + 66 potential/assignment arrays at addresses 0&ndash;209), <strong style="color:var(--coral)">9 local variables</strong> (loop counters and temporaries), and the <strong style="color:var(--sage)">stack</strong> (transient arithmetic, max depth ~3). The 682-instruction program was generated by a Python assembler, not hand-written.</p>
+  </div>
+</div>
+
+<footer>
+  Executed on the <a href="https://github.com/oaustegard/llm-as-computer">llm-as-computer</a> compiled transformer stack machine &middot; Mojo backend &middot; Verified against scipy
+</footer>
+
+</div>
+
+<script>
+const D = {"nInstr":682,"nSteps":23167,"result":206,"backend":"mojo","matrix":[[61,58,35,86,32,39,41,27,21,42],[59,77,97,99,78,21,89,72,35,63],[88,85,37,57,59,97,37,29,69,94],[32,82,53,20,77,96,21,70,50,61],[15,44,81,10,64,36,56,78,20,69],[76,35,87,69,16,55,26,37,30,66],[86,32,74,94,32,14,24,12,31,70],[97,63,20,64,90,21,28,49,89,10],[58,52,27,76,61,35,17,91,37,66],[42,79,61,26,55,98,70,17,26,86]],"assignment":[{"row":0,"col":8,"cost":21},{"row":1,"col":5,"cost":21},{"row":2,"col":2,"cost":37},{"row":3,"col":3,"cost":20},{"row":4,"col":0,"cost":15},{"row":5,"col":4,"cost":16},{"row":6,"col":1,"cost":32},{"row":7,"col":9,"cost":10},{"row":8,"col":6,"cost":17},{"row":9,"col":7,"cost":17}],"topOps":[["LOCAL.GET",5638],["PUSH",5516],["ADD",3332],["LOCAL.SET",1835],["I32.LOAD",1777],["JZ",1179],["SUB",962],["LT_S",959],["I32.STORE",918],["JNZ",827],["MUL",188],["NE",35],["HALT",1]],"uniqueOps":13,"iterations":[400,1738,3050,4376,5688,7946,9265,12451,13777,16963,22664]};
+
+const TH=[{"s":0,"op":"PUSH 0","sp":1,"top":0},{"s":1,"op":"PUSH 61","sp":2,"top":61},{"s":2,"op":"I32.STORE","sp":0,"top":0},{"s":3,"op":"PUSH 1","sp":1,"top":1},{"s":4,"op":"PUSH 58","sp":2,"top":58},{"s":5,"op":"I32.STORE","sp":0,"top":0},{"s":6,"op":"PUSH 2","sp":1,"top":2},{"s":7,"op":"PUSH 35","sp":2,"top":35},{"s":8,"op":"I32.STORE","sp":0,"top":0},{"s":9,"op":"PUSH 3","sp":1,"top":3},{"s":10,"op":"PUSH 86","sp":2,"top":86},{"s":11,"op":"I32.STORE","sp":0,"top":0},{"s":12,"op":"PUSH 4","sp":1,"top":4},{"s":13,"op":"PUSH 32","sp":2,"top":32},{"s":14,"op":"I32.STORE","sp":0,"top":0},{"s":15,"op":"PUSH 5","sp":1,"top":5},{"s":16,"op":"PUSH 39","sp":2,"top":39},{"s":17,"op":"I32.STORE","sp":0,"top":0},{"s":18,"op":"PUSH 6","sp":1,"top":6},{"s":19,"op":"PUSH 41","sp":2,"top":41},{"s":20,"op":"I32.STORE","sp":0,"top":0},{"s":21,"op":"PUSH 7","sp":1,"top":7},{"s":22,"op":"PUSH 27","sp":2,"top":27},{"s":23,"op":"I32.STORE","sp":0,"top":0},{"s":24,"op":"PUSH 8","sp":1,"top":8},{"s":25,"op":"PUSH 21","sp":2,"top":21},{"s":26,"op":"I32.STORE","sp":0,"top":0},{"s":27,"op":"PUSH 9","sp":1,"top":9},{"s":28,"op":"PUSH 42","sp":2,"top":42},{"s":29,"op":"I32.STORE","sp":0,"top":0}];
+
+const TT=[{"s":23127,"op":"ADD","sp":1,"top":308},{"s":23128,"op":"PUSH 140","sp":2,"top":140},{"s":23129,"op":"LOCAL.GET 2","sp":3,"top":9},{"s":23130,"op":"ADD","sp":2,"top":149},{"s":23131,"op":"I32.LOAD","sp":2,"top":1},{"s":23132,"op":"PUSH 1","sp":3,"top":1},{"s":23133,"op":"SUB","sp":2,"top":0},{"s":23134,"op":"I32.STORE","sp":0,"top":0},{"s":23135,"op":"LOCAL.GET 2","sp":1,"top":9},{"s":23136,"op":"PUSH 1","sp":2,"top":1},{"s":23137,"op":"ADD","sp":1,"top":10},{"s":23138,"op":"LOCAL.SET 2","sp":0,"top":0},{"s":23139,"op":"PUSH 1","sp":1,"top":1},{"s":23140,"op":"JNZ 660","sp":0,"top":0},{"s":23141,"op":"LOCAL.GET 2","sp":1,"top":10},{"s":23142,"op":"PUSH 11","sp":2,"top":11},{"s":23143,"op":"LT_S","sp":1,"top":1},{"s":23144,"op":"JZ 680","sp":0,"top":0},{"s":23145,"op":"PUSH 299","sp":1,"top":299},{"s":23146,"op":"LOCAL.GET 2","sp":2,"top":10},{"s":23147,"op":"ADD","sp":1,"top":309},{"s":23148,"op":"PUSH 140","sp":2,"top":140},{"s":23149,"op":"LOCAL.GET 2","sp":3,"top":10},{"s":23150,"op":"ADD","sp":2,"top":150},{"s":23151,"op":"I32.LOAD","sp":2,"top":8},{"s":23152,"op":"PUSH 1","sp":3,"top":1},{"s":23153,"op":"SUB","sp":2,"top":7},{"s":23154,"op":"I32.STORE","sp":0,"top":0},{"s":23155,"op":"LOCAL.GET 2","sp":1,"top":10},{"s":23156,"op":"PUSH 1","sp":2,"top":1},{"s":23157,"op":"ADD","sp":1,"top":11},{"s":23158,"op":"LOCAL.SET 2","sp":0,"top":0},{"s":23159,"op":"PUSH 1","sp":1,"top":1},{"s":23160,"op":"JNZ 660","sp":0,"top":0},{"s":23161,"op":"LOCAL.GET 2","sp":1,"top":11},{"s":23162,"op":"PUSH 11","sp":2,"top":11},{"s":23163,"op":"LT_S","sp":1,"top":0},{"s":23164,"op":"JZ 680","sp":0,"top":0},{"s":23165,"op":"LOCAL.GET 7","sp":1,"top":206},{"s":23166,"op":"HALT","sp":1,"top":206}];
+
+const IS={
+"0":[{"s":400,"op":"LOCAL.SET 0","sp":0,"top":0},{"s":401,"op":"LOCAL.GET 0","sp":1,"top":1},{"s":402,"op":"PUSH 11","sp":2,"top":11},{"s":403,"op":"LT_S","sp":1,"top":1},{"s":404,"op":"JZ 626","sp":0,"top":0},{"s":405,"op":"PUSH 140","sp":1,"top":140},{"s":406,"op":"LOCAL.GET 0","sp":2,"top":1},{"s":407,"op":"I32.STORE","sp":0,"top":0},{"s":408,"op":"PUSH 0","sp":1,"top":0},{"s":409,"op":"LOCAL.SET 1","sp":0,"top":0},{"s":410,"op":"PUSH 1","sp":1,"top":1},{"s":411,"op":"LOCAL.SET 2","sp":0,"top":0},{"s":412,"op":"LOCAL.GET 2","sp":1,"top":1},{"s":413,"op":"PUSH 11","sp":2,"top":11},{"s":414,"op":"LT_S","sp":1,"top":1}],
+"1":[{"s":1738,"op":"LOCAL.SET 0","sp":0,"top":0},{"s":1739,"op":"PUSH 1","sp":1,"top":1},{"s":1740,"op":"JNZ 401","sp":0,"top":0},{"s":1741,"op":"LOCAL.GET 0","sp":1,"top":2},{"s":1742,"op":"PUSH 11","sp":2,"top":11},{"s":1743,"op":"LT_S","sp":1,"top":1},{"s":1744,"op":"JZ 626","sp":0,"top":0},{"s":1745,"op":"PUSH 140","sp":1,"top":140},{"s":1746,"op":"LOCAL.GET 0","sp":2,"top":2},{"s":1747,"op":"I32.STORE","sp":0,"top":0},{"s":1748,"op":"PUSH 0","sp":1,"top":0},{"s":1749,"op":"LOCAL.SET 1","sp":0,"top":0},{"s":1750,"op":"PUSH 1","sp":1,"top":1},{"s":1751,"op":"LOCAL.SET 2","sp":0,"top":0},{"s":1752,"op":"LOCAL.GET 2","sp":1,"top":1}],
+"5":[{"s":7946,"op":"LOCAL.SET 0","sp":0,"top":0},{"s":7947,"op":"PUSH 1","sp":1,"top":1},{"s":7948,"op":"JNZ 401","sp":0,"top":0},{"s":7949,"op":"LOCAL.GET 0","sp":1,"top":6},{"s":7950,"op":"PUSH 11","sp":2,"top":11},{"s":7951,"op":"LT_S","sp":1,"top":1},{"s":7952,"op":"JZ 626","sp":0,"top":0},{"s":7953,"op":"PUSH 140","sp":1,"top":140},{"s":7954,"op":"LOCAL.GET 0","sp":2,"top":6},{"s":7955,"op":"I32.STORE","sp":0,"top":0},{"s":7956,"op":"PUSH 0","sp":1,"top":0},{"s":7957,"op":"LOCAL.SET 1","sp":0,"top":0},{"s":7958,"op":"PUSH 1","sp":1,"top":1},{"s":7959,"op":"LOCAL.SET 2","sp":0,"top":0},{"s":7960,"op":"LOCAL.GET 2","sp":1,"top":1}],
+"10":[{"s":22664,"op":"LOCAL.SET 0","sp":0,"top":0},{"s":22665,"op":"PUSH 1","sp":1,"top":1},{"s":22666,"op":"JNZ 401","sp":0,"top":0},{"s":22667,"op":"LOCAL.GET 0","sp":1,"top":11},{"s":22668,"op":"PUSH 11","sp":2,"top":11},{"s":22669,"op":"LT_S","sp":1,"top":0},{"s":22670,"op":"JZ 626","sp":0,"top":0},{"s":22671,"op":"PUSH 0","sp":1,"top":0},{"s":22672,"op":"LOCAL.SET 7","sp":0,"top":0},{"s":22673,"op":"PUSH 1","sp":1,"top":1},{"s":22674,"op":"LOCAL.SET 2","sp":0,"top":0},{"s":22675,"op":"LOCAL.GET 2","sp":1,"top":1},{"s":22676,"op":"PUSH 11","sp":2,"top":11},{"s":22677,"op":"LT_S","sp":1,"top":1},{"s":22678,"op":"JZ 658","sp":0,"top":0}]
+};
+
+const stats = [
+  {l:'min cost', v:D.result, c:true},
+  {l:'instructions', v:D.nInstr},
+  {l:'steps', v:D.nSteps.toLocaleString()},
+  {l:'opcodes used', v:D.uniqueOps+' / 55'},
+  {l:'backend', v:D.backend},
+];
+document.getElementById('stats').innerHTML = stats.map(s =>
+  `<div class="stat-card"><div class="label">${s.l}</div><div class="val${s.c?' coral':''}">${s.v}</div></div>`
+).join('');
+
+const hit = new Set(); D.assignment.forEach(a => hit.add(a.row+','+a.col));
+let mh = '<table class="mtx"><tr><th></th>';
+for(let j=0;j<10;j++) mh += '<th>'+j+'</th>';
+mh += '</tr>';
+for(let i=0;i<10;i++){
+  mh += '<tr><th>'+i+'</th>';
+  for(let j=0;j<10;j++){
+    mh += '<td'+(hit.has(i+','+j)?' class="hit"':'')+'>'+D.matrix[i][j]+'</td>';
+  }
+  mh += '</tr>';
+}
+document.getElementById('mtx').innerHTML = mh+'</table>';
+
+const ac = D.assignment.map(a => `r${a.row}\u2192c${a.col} (${a.cost})`);
+document.getElementById('asgn').innerHTML = ac.join(' &middot; ') + ' = <strong>'+D.result+'</strong>';
+
+function tbl(rows){
+  let h = '<div class="trace-scroll"><table class="trace-tbl"><tr><th>step</th><th>opcode</th><th>sp</th><th>top</th></tr>';
+  rows.forEach(r => {
+    h += `<tr><td class="num">${r.s.toLocaleString()}</td><td class="op">${r.op}</td><td class="num">${r.sp}</td><td class="num">${r.top.toLocaleString()}</td></tr>`;
+  });
+  return h+'</table></div>';
+}
+
+const tabs = [
+  {id:'init',label:'Init',data:TH,note:'Loading row 0 of the cost matrix. Pattern: PUSH addr, PUSH value, I32.STORE. Repeats 100 times for the full 10\u00d710, then 99 more for u[], v[], p[].'},
+  {id:'i1',label:'Row 1',data:IS['0'],note:'First iteration enters the augmenting path loop. LOCAL.GET 0 shows i=1. Sets p[0]=i, initializes minv[]=\u221e, scans all columns for reduced costs.'},
+  {id:'i2',label:'Row 2',data:IS['1'],note:'Second row. JNZ 401 is the unconditional jump back to the loop head. LOCAL.GET 0 reveals i=2 on the stack.'},
+  {id:'i6',label:'Row 6',data:IS['5'],note:'Row 6 produces the longest iteration (2,258 steps) \u2014 the augmenting path must traverse multiple already-assigned columns before finding an improving swap.'},
+  {id:'exit',label:'Exit',data:IS['10'].concat(TT.slice(-20)),note:'i=11 fails the i<11 guard (LT_S\u21920). Falls through to the result loop: sums C[p[j]-1][j-1] for j=1..10, pushes 206, HALT.'},
+  {id:'tail',label:'Final 40',data:TT,note:'The last 40 steps. Final I32.STORE writes the last assignment, LOCAL.GET 7 retrieves the accumulated cost, HALT terminates.'},
+];
+
+let th='',tp='';
+tabs.forEach((t,i) => {
+  const a = i===0?' active':'';
+  th += `<div class="tab${a}" data-tab="${t.id}">${t.label}</div>`;
+  tp += `<div class="tab-panel${a}" id="tp-${t.id}"><p class="trace-note">${t.note}</p>${tbl(t.data)}</div>`;
+});
+document.getElementById('tabs').innerHTML = th;
+document.getElementById('panels').innerHTML = tp;
+
+document.getElementById('tabs').addEventListener('click', e => {
+  const t = e.target.closest('.tab'); if(!t) return;
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById('tp-'+t.dataset.tab).classList.add('active');
+});
+
+const it = D.iterations;
+const is = [];
+for(let i=0;i<it.length-1;i++) is.push(it[i+1]-it[i]);
+is.push(D.nSteps-it[it.length-1]);
+const mx = Math.max(...is);
+const colors = ['var(--indigo)','var(--coral)','var(--sage)','var(--indigo)','var(--coral)','var(--sage)','var(--indigo)','var(--coral)','var(--sage)','var(--indigo)'];
+let ih = '';
+for(let i=0;i<Math.min(is.length,10);i++){
+  const w = Math.round(is[i]/mx*100);
+  ih += `<div class="iter-row"><span class="iter-label">${i+1}</span><div class="iter-bar" style="width:${w}%;background:${colors[i]};opacity:0.75"></div><span class="iter-steps">${is[i].toLocaleString()}</span></div>`;
+}
+document.getElementById('iters').innerHTML = ih;
+
+const mxO = D.topOps[0][1];
+const opC = ['var(--indigo)','var(--indigo)','var(--sage)','var(--indigo)','var(--coral)','var(--sage)','var(--sage)','var(--coral)','var(--coral)','var(--sage)','var(--indigo)','var(--muted)','var(--coral)'];
+let oh = '<div class="section-rule" style="margin-top:0.3em"></div>';
+D.topOps.forEach(([name,count],i) => {
+  const w = Math.round(count/mxO*100);
+  const pct = (count/D.nSteps*100).toFixed(1);
+  oh += `<div class="bar-wrap"><span class="bar-label">${name}</span><div class="bar" style="width:${w}%;background:${opC[i]||'var(--muted)'};opacity:0.7"></div><span class="bar-count">${count.toLocaleString()} (${pct}%)</span></div>`;
+});
+document.getElementById('bd-ops').innerHTML = oh;
+
+document.querySelectorAll('.sec-head').forEach(h => {
+  h.addEventListener('click', () => {
+    const s = h.dataset.sec;
+    document.getElementById('ch-'+s).classList.toggle('open');
+    document.getElementById('bd-'+s).classList.toggle('open');
+  });
+});
+</script>
