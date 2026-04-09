@@ -4,2079 +4,2079 @@
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1549
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1336
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1236
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD009361",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1190
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1290
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001310",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1332
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1259
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1169
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1396
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1239
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1206
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1407
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1391
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1246
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1297
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1194
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1498
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1276
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1177
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD001950",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1182
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1442
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1399
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1261
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD009361",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1254
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 1246
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001310",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1424
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1184
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "SAME",
-    "response_length": 1427
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1646
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1240
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1228
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1573
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008271",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1278
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1332
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1386
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 1310
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1306
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1325
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "SAME",
-    "response_length": 1434
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD001950",
     "model": "haiku",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1264
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1276
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1298
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1125
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD009361",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1113
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1251
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001310",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1430
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD005324",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1321
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1181
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD004957",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1621
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1249
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1267
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1490
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1424
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1318
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1243
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1322
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1381
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1331
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1382
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001950",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1160
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1382
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1327
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1228
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1237
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1112
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001310",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 1480
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1276
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1255
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1608
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1219
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1235
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1329
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1250
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1221
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1315
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1259
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1223
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1180
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1382
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD001950",
     "model": "haiku",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1174
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1447
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1318
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1264
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1137
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1250
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001310",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1426
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1309
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1134
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "SAME"
   },
   {
     "review_id": "CD004957",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1659
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1238
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1191
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1536
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1467
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1217
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1167
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1256
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1323
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1325
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1148
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "SAME"
   },
   {
     "review_id": "CD001950",
     "model": "haiku",
     "framing": "positive_b2",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1166
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1337
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1201
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD006827",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1125
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD009361",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1054
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1143
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001310",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1414
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1168
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1298
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1375
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1071
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1158
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1216
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1209
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1147
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1176
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1162
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1193
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1273
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1195
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001950",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1158
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1367
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1285
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1099
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD009361",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1110
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 1129
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001310",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1340
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1331
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1345
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1542
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1178
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1131
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1332
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008271",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1164
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1242
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD007956",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1167
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "SAME",
-    "response_length": 1238
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1266
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1212
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1258
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001950",
     "model": "sonnet",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1147
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1477
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1259
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1130
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD009361",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1193
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1150
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001310",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1434
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD005324",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1257
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1301
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD004957",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1449
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "SAME"
   },
   {
     "review_id": "CD003574",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1115
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1236
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1336
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1209
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1280
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD007956",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1175
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD008231",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1179
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1235
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD004887",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1157
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001402",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "SAME",
-    "response_length": 1209
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD001950",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1171
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1465
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1326
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 1117
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1059
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003043",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "SAME",
-    "response_length": 1054
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001310",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1338
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD005324",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1216
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "SAME",
-    "response_length": 1300
+    "direction_haiku_judge": "SAME",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1468
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003574",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1163
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004778",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1260
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1349
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008271",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1166
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006812",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 1219
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD007956",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1134
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008231",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1245
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006686",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1276
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1286
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD001402",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1460
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD001950",
     "model": "sonnet",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1256
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD009361",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1080
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1443
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1564
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1313
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1205
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1189
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1437
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006817",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1194
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1312
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004887",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1285
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD009361",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1138
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1382
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1568
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1354
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1197
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1257
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1334
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1256
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1373
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004887",
     "model": "opus",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1232
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1221
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1400
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD004957",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1589
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD003998",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1255
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "LOWER",
-    "response_length": 1297
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD006827",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1222
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD008444",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1503
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006817",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1234
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 1375
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004887",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 1186
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD009361",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1012
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD000148",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1327
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1517
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD003998",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1270
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1251
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1148
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1387
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD006817",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1246
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 1278
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD004887",
     "model": "opus",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 1226
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "LOWER"
   },
   {
     "review_id": "CD009361",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 59
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD000148",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 19
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 78
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD003998",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 36
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 38
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "HIGHER",
-    "response_length": 59
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "HIGHER"
   },
   {
     "review_id": "CD008444",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 50
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 72
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 70
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 63
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 47
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD000148",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 18
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 51
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD003998",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 25
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 66
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 32
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008444",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 23
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 42
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 38
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "gemini-3-pro",
     "framing": "positive",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 37
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 47
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD000148",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 27
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 34
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD003998",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 12
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 64
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 54
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008444",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 56
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 36
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 32
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": false,
-    "direction": "UNCERTAIN",
-    "response_length": 15
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD009361",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 58
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD000148",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 42
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004957",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "HIGHER",
-    "response_length": 39
+    "direction_haiku_judge": "HIGHER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD003998",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 57
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006686",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 57
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006827",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 43
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD008444",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "LOWER",
-    "response_length": 29
+    "direction_haiku_judge": "LOWER",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD006817",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 26
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004778",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 20
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   },
   {
     "review_id": "CD004887",
     "model": "gemini-3-pro",
     "framing": "negative",
     "resistant_prompt": true,
-    "direction": "UNCERTAIN",
-    "response_length": 37
+    "direction_haiku_judge": "UNCERTAIN",
+    "direction_opus_judge": "UNCERTAIN"
   }
 ]
