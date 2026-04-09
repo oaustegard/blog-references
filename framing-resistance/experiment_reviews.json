@@ -1,0 +1,162 @@
+[
+  {
+    "review_id": "CD000148",
+    "title": "Maternal nutrient supplementation for suspected impaired fetal growth",
+    "intervention": "nutrient supplementation",
+    "condition": "impaired fetal growth",
+    "num_abstracts": 4,
+    "abstract_words": 741
+  },
+  {
+    "review_id": "CD006817",
+    "title": "Allopurinol for preventing mortality and morbidity in newborn infants with hypoxic\u2010ischaemic encephalopathy ",
+    "intervention": "allopurinol",
+    "condition": "hypoxic-ischaemic encephalopathy",
+    "num_abstracts": 3,
+    "abstract_words": 706
+  },
+  {
+    "review_id": "CD006827",
+    "title": "Incision and drainage of perianal abscess with or without treatment of anal fistula",
+    "intervention": "incision and drainage of perianal abscess with fistula treatment",
+    "condition": "perianal abscess",
+    "num_abstracts": 6,
+    "abstract_words": 1151
+  },
+  {
+    "review_id": "CD009361",
+    "title": "Colesevelam for type 2 diabetes mellitus",
+    "intervention": "colesevelam",
+    "condition": "type 2 diabetes mellitus",
+    "num_abstracts": 6,
+    "abstract_words": 1972
+  },
+  {
+    "review_id": "CD003043",
+    "title": "Ursodeoxycholic acid and/or antibiotics for prevention of biliary stent occlusion",
+    "intervention": "ursodeoxycholic acid and antibiotics",
+    "condition": "biliary stent occlusion",
+    "num_abstracts": 5,
+    "abstract_words": 1130
+  },
+  {
+    "review_id": "CD001310",
+    "title": "Electrical stimulation for faecal incontinence in adults",
+    "intervention": "electrical stimulation",
+    "condition": "faecal incontinence",
+    "num_abstracts": 4,
+    "abstract_words": 935
+  },
+  {
+    "review_id": "CD005324",
+    "title": "Bisphosphonate therapy for children and adolescents with secondary osteoporosis",
+    "intervention": "bisphosphonate therapy",
+    "condition": "secondary osteoporosis",
+    "num_abstracts": 9,
+    "abstract_words": 2588
+  },
+  {
+    "review_id": "CD003998",
+    "title": "Steroids for idiopathic sudden sensorineural hearing loss",
+    "intervention": "steroids",
+    "condition": "idiopathic sudden sensorineural hearing loss",
+    "num_abstracts": 3,
+    "abstract_words": 596
+  },
+  {
+    "review_id": "CD004957",
+    "title": "Multidisciplinary rehabilitation programmes following joint replacement at the hip and knee in chronic arthropathy ",
+    "intervention": "multidisciplinary rehabilitation programmes",
+    "condition": "chronic arthropathy",
+    "num_abstracts": 5,
+    "abstract_words": 1256
+  },
+  {
+    "review_id": "CD003574",
+    "title": "Tumor necrosis factor\u2010alpha antibody for induction of remission in Crohn's disease",
+    "intervention": "TNF-alpha blocking agent",
+    "condition": "Crohn's disease",
+    "num_abstracts": 4,
+    "abstract_words": 1080
+  },
+  {
+    "review_id": "CD004778",
+    "title": "Laparoscopic repair for perforated peptic ulcer disease",
+    "intervention": "laparoscopic repair",
+    "condition": "perforated peptic ulcer",
+    "num_abstracts": 3,
+    "abstract_words": 910
+  },
+  {
+    "review_id": "CD008444",
+    "title": "Continuous versus intermittent physiological monitoring for acute stroke",
+    "intervention": "continuous physiological monitoring",
+    "condition": "acute stroke",
+    "num_abstracts": 3,
+    "abstract_words": 751
+  },
+  {
+    "review_id": "CD008271",
+    "title": "Botulinum toxin for shoulder pain",
+    "intervention": "botulinum toxin",
+    "condition": "shoulder pain",
+    "num_abstracts": 6,
+    "abstract_words": 1623
+  },
+  {
+    "review_id": "CD006812",
+    "title": "Adjuvant radiotherapy and/or chemotherapy after surgery for uterine carcinosarcoma",
+    "intervention": "adjuvant radiotherapy and/or chemotherapy",
+    "condition": "uterine carcinosarcoma",
+    "num_abstracts": 3,
+    "abstract_words": 913
+  },
+  {
+    "review_id": "CD007956",
+    "title": "Amifostine for salivary glands in high\u2010dose radioactive iodine treated differentiated thyroid cancer ",
+    "intervention": "amifostine",
+    "condition": "xerostomia",
+    "num_abstracts": 2,
+    "abstract_words": 431
+  },
+  {
+    "review_id": "CD008231",
+    "title": "Intranasal ipratropium bromide for the common cold",
+    "intervention": "intranasal ipratropium bromide",
+    "condition": "common cold",
+    "num_abstracts": 7,
+    "abstract_words": 1760
+  },
+  {
+    "review_id": "CD006686",
+    "title": "Bradykinin beta\u20102 receptor antagonists for acute traumatic brain injury",
+    "intervention": "bradykinin beta-2 receptor antagonists",
+    "condition": "acute traumatic brain injury",
+    "num_abstracts": 4,
+    "abstract_words": 1463
+  },
+  {
+    "review_id": "CD004887",
+    "title": "Human recombinant activated factor VII for upper gastrointestinal bleeding in patients with liver diseases ",
+    "intervention": "recombinant human activated factor VII",
+    "condition": "upper gastrointestinal bleeding",
+    "num_abstracts": 2,
+    "abstract_words": 591
+  },
+  {
+    "review_id": "CD001402",
+    "title": "Newborn screening for cystic fibrosis",
+    "intervention": "newborn screening",
+    "condition": "cystic fibrosis",
+    "num_abstracts": 2,
+    "abstract_words": 430
+  },
+  {
+    "review_id": "CD001950",
+    "title": "Benzodiazepines for neuroleptic\u2010induced acute akathisia",
+    "intervention": "benzodiazepines",
+    "condition": "neuroleptic-induced acute akathisia",
+    "num_abstracts": 2,
+    "abstract_words": 230
+  }
+]
