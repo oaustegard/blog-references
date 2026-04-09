@@ -1,0 +1,2082 @@
+[
+  {
+    "review_id": "CD000148",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1549
+  },
+  {
+    "review_id": "CD006817",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1336
+  },
+  {
+    "review_id": "CD006827",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1236
+  },
+  {
+    "review_id": "CD009361",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1190
+  },
+  {
+    "review_id": "CD003043",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1290
+  },
+  {
+    "review_id": "CD001310",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1332
+  },
+  {
+    "review_id": "CD005324",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1259
+  },
+  {
+    "review_id": "CD003998",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1169
+  },
+  {
+    "review_id": "CD004957",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1396
+  },
+  {
+    "review_id": "CD003574",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1239
+  },
+  {
+    "review_id": "CD004778",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1206
+  },
+  {
+    "review_id": "CD008444",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1407
+  },
+  {
+    "review_id": "CD008271",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1391
+  },
+  {
+    "review_id": "CD006812",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1246
+  },
+  {
+    "review_id": "CD007956",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1297
+  },
+  {
+    "review_id": "CD008231",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1194
+  },
+  {
+    "review_id": "CD006686",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1498
+  },
+  {
+    "review_id": "CD004887",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1276
+  },
+  {
+    "review_id": "CD001402",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1177
+  },
+  {
+    "review_id": "CD001950",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1182
+  },
+  {
+    "review_id": "CD000148",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1442
+  },
+  {
+    "review_id": "CD006817",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1399
+  },
+  {
+    "review_id": "CD006827",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1261
+  },
+  {
+    "review_id": "CD009361",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1254
+  },
+  {
+    "review_id": "CD003043",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 1246
+  },
+  {
+    "review_id": "CD001310",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1424
+  },
+  {
+    "review_id": "CD005324",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1184
+  },
+  {
+    "review_id": "CD003998",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "SAME",
+    "response_length": 1427
+  },
+  {
+    "review_id": "CD004957",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1646
+  },
+  {
+    "review_id": "CD003574",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1240
+  },
+  {
+    "review_id": "CD004778",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1228
+  },
+  {
+    "review_id": "CD008444",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1573
+  },
+  {
+    "review_id": "CD008271",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1278
+  },
+  {
+    "review_id": "CD006812",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1332
+  },
+  {
+    "review_id": "CD007956",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1386
+  },
+  {
+    "review_id": "CD008231",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 1310
+  },
+  {
+    "review_id": "CD006686",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1306
+  },
+  {
+    "review_id": "CD004887",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1325
+  },
+  {
+    "review_id": "CD001402",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "SAME",
+    "response_length": 1434
+  },
+  {
+    "review_id": "CD001950",
+    "model": "haiku",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1264
+  },
+  {
+    "review_id": "CD000148",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1276
+  },
+  {
+    "review_id": "CD006817",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1298
+  },
+  {
+    "review_id": "CD006827",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1125
+  },
+  {
+    "review_id": "CD009361",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1113
+  },
+  {
+    "review_id": "CD003043",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1251
+  },
+  {
+    "review_id": "CD001310",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1430
+  },
+  {
+    "review_id": "CD005324",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1321
+  },
+  {
+    "review_id": "CD003998",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1181
+  },
+  {
+    "review_id": "CD004957",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1621
+  },
+  {
+    "review_id": "CD003574",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1249
+  },
+  {
+    "review_id": "CD004778",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1267
+  },
+  {
+    "review_id": "CD008444",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1490
+  },
+  {
+    "review_id": "CD008271",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1424
+  },
+  {
+    "review_id": "CD006812",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1318
+  },
+  {
+    "review_id": "CD007956",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1243
+  },
+  {
+    "review_id": "CD008231",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1322
+  },
+  {
+    "review_id": "CD006686",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1381
+  },
+  {
+    "review_id": "CD004887",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1331
+  },
+  {
+    "review_id": "CD001402",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1382
+  },
+  {
+    "review_id": "CD001950",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1160
+  },
+  {
+    "review_id": "CD000148",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1382
+  },
+  {
+    "review_id": "CD006817",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1327
+  },
+  {
+    "review_id": "CD006827",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1228
+  },
+  {
+    "review_id": "CD009361",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1237
+  },
+  {
+    "review_id": "CD003043",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1112
+  },
+  {
+    "review_id": "CD001310",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 1480
+  },
+  {
+    "review_id": "CD005324",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1276
+  },
+  {
+    "review_id": "CD003998",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1255
+  },
+  {
+    "review_id": "CD004957",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1608
+  },
+  {
+    "review_id": "CD003574",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1219
+  },
+  {
+    "review_id": "CD004778",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1235
+  },
+  {
+    "review_id": "CD008444",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1329
+  },
+  {
+    "review_id": "CD008271",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1250
+  },
+  {
+    "review_id": "CD006812",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1221
+  },
+  {
+    "review_id": "CD007956",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1315
+  },
+  {
+    "review_id": "CD008231",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1259
+  },
+  {
+    "review_id": "CD006686",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1223
+  },
+  {
+    "review_id": "CD004887",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1180
+  },
+  {
+    "review_id": "CD001402",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1382
+  },
+  {
+    "review_id": "CD001950",
+    "model": "haiku",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1174
+  },
+  {
+    "review_id": "CD000148",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1447
+  },
+  {
+    "review_id": "CD006817",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1318
+  },
+  {
+    "review_id": "CD006827",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1264
+  },
+  {
+    "review_id": "CD009361",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1137
+  },
+  {
+    "review_id": "CD003043",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1250
+  },
+  {
+    "review_id": "CD001310",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1426
+  },
+  {
+    "review_id": "CD005324",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1309
+  },
+  {
+    "review_id": "CD003998",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1134
+  },
+  {
+    "review_id": "CD004957",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1659
+  },
+  {
+    "review_id": "CD003574",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1238
+  },
+  {
+    "review_id": "CD004778",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1191
+  },
+  {
+    "review_id": "CD008444",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1536
+  },
+  {
+    "review_id": "CD008271",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1467
+  },
+  {
+    "review_id": "CD006812",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1217
+  },
+  {
+    "review_id": "CD007956",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1167
+  },
+  {
+    "review_id": "CD008231",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1256
+  },
+  {
+    "review_id": "CD006686",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1323
+  },
+  {
+    "review_id": "CD004887",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1325
+  },
+  {
+    "review_id": "CD001402",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1148
+  },
+  {
+    "review_id": "CD001950",
+    "model": "haiku",
+    "framing": "positive_b2",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1166
+  },
+  {
+    "review_id": "CD000148",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1337
+  },
+  {
+    "review_id": "CD006817",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1201
+  },
+  {
+    "review_id": "CD006827",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1125
+  },
+  {
+    "review_id": "CD009361",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1054
+  },
+  {
+    "review_id": "CD003043",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1143
+  },
+  {
+    "review_id": "CD001310",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1414
+  },
+  {
+    "review_id": "CD005324",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1168
+  },
+  {
+    "review_id": "CD003998",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1298
+  },
+  {
+    "review_id": "CD004957",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1375
+  },
+  {
+    "review_id": "CD003574",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1071
+  },
+  {
+    "review_id": "CD004778",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1158
+  },
+  {
+    "review_id": "CD008444",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1216
+  },
+  {
+    "review_id": "CD008271",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1209
+  },
+  {
+    "review_id": "CD006812",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1147
+  },
+  {
+    "review_id": "CD007956",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1176
+  },
+  {
+    "review_id": "CD008231",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1162
+  },
+  {
+    "review_id": "CD006686",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1193
+  },
+  {
+    "review_id": "CD004887",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1273
+  },
+  {
+    "review_id": "CD001402",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1195
+  },
+  {
+    "review_id": "CD001950",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1158
+  },
+  {
+    "review_id": "CD000148",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1367
+  },
+  {
+    "review_id": "CD006817",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1285
+  },
+  {
+    "review_id": "CD006827",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1099
+  },
+  {
+    "review_id": "CD009361",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1110
+  },
+  {
+    "review_id": "CD003043",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 1129
+  },
+  {
+    "review_id": "CD001310",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1340
+  },
+  {
+    "review_id": "CD005324",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1331
+  },
+  {
+    "review_id": "CD003998",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1345
+  },
+  {
+    "review_id": "CD004957",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1542
+  },
+  {
+    "review_id": "CD003574",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1178
+  },
+  {
+    "review_id": "CD004778",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1131
+  },
+  {
+    "review_id": "CD008444",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1332
+  },
+  {
+    "review_id": "CD008271",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1164
+  },
+  {
+    "review_id": "CD006812",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1242
+  },
+  {
+    "review_id": "CD007956",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1167
+  },
+  {
+    "review_id": "CD008231",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "SAME",
+    "response_length": 1238
+  },
+  {
+    "review_id": "CD006686",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1266
+  },
+  {
+    "review_id": "CD004887",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1212
+  },
+  {
+    "review_id": "CD001402",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1258
+  },
+  {
+    "review_id": "CD001950",
+    "model": "sonnet",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1147
+  },
+  {
+    "review_id": "CD000148",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1477
+  },
+  {
+    "review_id": "CD006817",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1259
+  },
+  {
+    "review_id": "CD006827",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1130
+  },
+  {
+    "review_id": "CD009361",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1193
+  },
+  {
+    "review_id": "CD003043",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1150
+  },
+  {
+    "review_id": "CD001310",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1434
+  },
+  {
+    "review_id": "CD005324",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1257
+  },
+  {
+    "review_id": "CD003998",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1301
+  },
+  {
+    "review_id": "CD004957",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1449
+  },
+  {
+    "review_id": "CD003574",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1115
+  },
+  {
+    "review_id": "CD004778",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1236
+  },
+  {
+    "review_id": "CD008444",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1336
+  },
+  {
+    "review_id": "CD008271",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1209
+  },
+  {
+    "review_id": "CD006812",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1280
+  },
+  {
+    "review_id": "CD007956",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1175
+  },
+  {
+    "review_id": "CD008231",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1179
+  },
+  {
+    "review_id": "CD006686",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1235
+  },
+  {
+    "review_id": "CD004887",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1157
+  },
+  {
+    "review_id": "CD001402",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "SAME",
+    "response_length": 1209
+  },
+  {
+    "review_id": "CD001950",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1171
+  },
+  {
+    "review_id": "CD000148",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1465
+  },
+  {
+    "review_id": "CD006817",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1326
+  },
+  {
+    "review_id": "CD006827",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 1117
+  },
+  {
+    "review_id": "CD009361",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1059
+  },
+  {
+    "review_id": "CD003043",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "SAME",
+    "response_length": 1054
+  },
+  {
+    "review_id": "CD001310",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1338
+  },
+  {
+    "review_id": "CD005324",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1216
+  },
+  {
+    "review_id": "CD003998",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "SAME",
+    "response_length": 1300
+  },
+  {
+    "review_id": "CD004957",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1468
+  },
+  {
+    "review_id": "CD003574",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1163
+  },
+  {
+    "review_id": "CD004778",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1260
+  },
+  {
+    "review_id": "CD008444",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1349
+  },
+  {
+    "review_id": "CD008271",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1166
+  },
+  {
+    "review_id": "CD006812",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 1219
+  },
+  {
+    "review_id": "CD007956",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1134
+  },
+  {
+    "review_id": "CD008231",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1245
+  },
+  {
+    "review_id": "CD006686",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1276
+  },
+  {
+    "review_id": "CD004887",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1286
+  },
+  {
+    "review_id": "CD001402",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1460
+  },
+  {
+    "review_id": "CD001950",
+    "model": "sonnet",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1256
+  },
+  {
+    "review_id": "CD009361",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1080
+  },
+  {
+    "review_id": "CD000148",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1443
+  },
+  {
+    "review_id": "CD004957",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1564
+  },
+  {
+    "review_id": "CD003998",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1313
+  },
+  {
+    "review_id": "CD006686",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1205
+  },
+  {
+    "review_id": "CD006827",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1189
+  },
+  {
+    "review_id": "CD008444",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1437
+  },
+  {
+    "review_id": "CD006817",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1194
+  },
+  {
+    "review_id": "CD004778",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1312
+  },
+  {
+    "review_id": "CD004887",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1285
+  },
+  {
+    "review_id": "CD009361",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1138
+  },
+  {
+    "review_id": "CD000148",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1382
+  },
+  {
+    "review_id": "CD004957",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1568
+  },
+  {
+    "review_id": "CD003998",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1354
+  },
+  {
+    "review_id": "CD006686",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1197
+  },
+  {
+    "review_id": "CD006827",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1257
+  },
+  {
+    "review_id": "CD008444",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1334
+  },
+  {
+    "review_id": "CD006817",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1256
+  },
+  {
+    "review_id": "CD004778",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1373
+  },
+  {
+    "review_id": "CD004887",
+    "model": "opus",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1232
+  },
+  {
+    "review_id": "CD009361",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1221
+  },
+  {
+    "review_id": "CD000148",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1400
+  },
+  {
+    "review_id": "CD004957",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1589
+  },
+  {
+    "review_id": "CD003998",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1255
+  },
+  {
+    "review_id": "CD006686",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "LOWER",
+    "response_length": 1297
+  },
+  {
+    "review_id": "CD006827",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1222
+  },
+  {
+    "review_id": "CD008444",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1503
+  },
+  {
+    "review_id": "CD006817",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1234
+  },
+  {
+    "review_id": "CD004778",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 1375
+  },
+  {
+    "review_id": "CD004887",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 1186
+  },
+  {
+    "review_id": "CD009361",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1012
+  },
+  {
+    "review_id": "CD000148",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1327
+  },
+  {
+    "review_id": "CD004957",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1517
+  },
+  {
+    "review_id": "CD003998",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1270
+  },
+  {
+    "review_id": "CD006686",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1251
+  },
+  {
+    "review_id": "CD006827",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1148
+  },
+  {
+    "review_id": "CD008444",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1387
+  },
+  {
+    "review_id": "CD006817",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1246
+  },
+  {
+    "review_id": "CD004778",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 1278
+  },
+  {
+    "review_id": "CD004887",
+    "model": "opus",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 1226
+  },
+  {
+    "review_id": "CD009361",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 59
+  },
+  {
+    "review_id": "CD000148",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 19
+  },
+  {
+    "review_id": "CD004957",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 78
+  },
+  {
+    "review_id": "CD003998",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 36
+  },
+  {
+    "review_id": "CD006686",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 38
+  },
+  {
+    "review_id": "CD006827",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "HIGHER",
+    "response_length": 59
+  },
+  {
+    "review_id": "CD008444",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 50
+  },
+  {
+    "review_id": "CD006817",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 72
+  },
+  {
+    "review_id": "CD004778",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 70
+  },
+  {
+    "review_id": "CD004887",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 63
+  },
+  {
+    "review_id": "CD009361",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 47
+  },
+  {
+    "review_id": "CD000148",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 18
+  },
+  {
+    "review_id": "CD004957",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 51
+  },
+  {
+    "review_id": "CD003998",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 25
+  },
+  {
+    "review_id": "CD006686",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 66
+  },
+  {
+    "review_id": "CD006827",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 32
+  },
+  {
+    "review_id": "CD008444",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 23
+  },
+  {
+    "review_id": "CD006817",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 42
+  },
+  {
+    "review_id": "CD004778",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 38
+  },
+  {
+    "review_id": "CD004887",
+    "model": "gemini-3-pro",
+    "framing": "positive",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 37
+  },
+  {
+    "review_id": "CD009361",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 47
+  },
+  {
+    "review_id": "CD000148",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 27
+  },
+  {
+    "review_id": "CD004957",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 34
+  },
+  {
+    "review_id": "CD003998",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 12
+  },
+  {
+    "review_id": "CD006686",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 64
+  },
+  {
+    "review_id": "CD006827",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 54
+  },
+  {
+    "review_id": "CD008444",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 56
+  },
+  {
+    "review_id": "CD006817",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 36
+  },
+  {
+    "review_id": "CD004778",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 32
+  },
+  {
+    "review_id": "CD004887",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": false,
+    "direction": "UNCERTAIN",
+    "response_length": 15
+  },
+  {
+    "review_id": "CD009361",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 58
+  },
+  {
+    "review_id": "CD000148",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 42
+  },
+  {
+    "review_id": "CD004957",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "HIGHER",
+    "response_length": 39
+  },
+  {
+    "review_id": "CD003998",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 57
+  },
+  {
+    "review_id": "CD006686",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 57
+  },
+  {
+    "review_id": "CD006827",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 43
+  },
+  {
+    "review_id": "CD008444",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "LOWER",
+    "response_length": 29
+  },
+  {
+    "review_id": "CD006817",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 26
+  },
+  {
+    "review_id": "CD004778",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 20
+  },
+  {
+    "review_id": "CD004887",
+    "model": "gemini-3-pro",
+    "framing": "negative",
+    "resistant_prompt": true,
+    "direction": "UNCERTAIN",
+    "response_length": 37
+  }
+]
