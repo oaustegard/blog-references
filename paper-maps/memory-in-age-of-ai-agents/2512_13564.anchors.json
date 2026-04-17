@@ -1,0 +1,1983 @@
+[
+  {
+    "id": "2.c0",
+    "section": "2",
+    "type": "claim",
+    "text": "Agent memory systems can be formally distinguished from related concepts such as LLM memory, retrieval-augmented generation, and context engineering.",
+    "page": 2
+  },
+  {
+    "id": "2.c1",
+    "section": "2",
+    "type": "method",
+    "text": "The paper provides a formal framework for LLM-based agent systems and their memory components.",
+    "page": 2
+  },
+  {
+    "id": "5.c0",
+    "section": "5",
+    "type": "claim",
+    "text": "Memory formation in AI agents can be achieved through multiple mechanisms including semantic summarization, knowledge distillation, structured construction, latent representation, and parametric internalization.",
+    "page": 2
+  },
+  {
+    "id": "5.c1",
+    "section": "5",
+    "type": "claim",
+    "text": "Memory evolution encompasses consolidation, updating, and forgetting as distinct processes that govern how stored information changes over time.",
+    "page": 2
+  },
+  {
+    "id": "5.c2",
+    "section": "5",
+    "type": "claim",
+    "text": "Memory retrieval involves multiple stages including determining retrieval timing and intent, query construction, retrieval strategies, and post-retrieval processing.",
+    "page": 2
+  },
+  {
+    "id": "4.c0",
+    "section": "4",
+    "type": "claim",
+    "text": "Agent memory functions are organized into three main categories: factual memory, experiential memory, and working memory.",
+    "page": 2
+  },
+  {
+    "id": "4.c1",
+    "section": "4",
+    "type": "definition",
+    "text": "Factual memory encompasses both user factual memory and environment factual memory as distinct subcategories.",
+    "page": 2
+  },
+  {
+    "id": "4.c2",
+    "section": "4",
+    "type": "definition",
+    "text": "Experiential memory is subdivided into case-based, strategy-based, skill-based, and hybrid memory types.",
+    "page": 2
+  },
+  {
+    "id": "4.c3",
+    "section": "4",
+    "type": "definition",
+    "text": "Working memory is distinguished into single-turn and multi-turn working memory subcategories.",
+    "page": 2
+  },
+  {
+    "id": "3.c0",
+    "section": "3",
+    "type": "claim",
+    "text": "Memory in AI agents can be categorized by its physical form into token-level, parametric, and latent memory types.",
+    "page": 2
+  },
+  {
+    "id": "3.c1",
+    "section": "3",
+    "type": "definition",
+    "text": "Token-level memory can be organized in flat (1D), planar (2D), or hierarchical (3D) structures.",
+    "page": 2
+  },
+  {
+    "id": "3.c2",
+    "section": "3",
+    "type": "definition",
+    "text": "Parametric memory is subdivided into internal parametric memory and external parametric memory.",
+    "page": 2
+  },
+  {
+    "id": "3.c3",
+    "section": "3",
+    "type": "definition",
+    "text": "Latent memory operations include generation, reuse, and transformation of latent representations.",
+    "page": 2
+  },
+  {
+    "id": "3.c4",
+    "section": "3",
+    "type": "claim",
+    "text": "Adaptation is identified as a distinct memory-related mechanism within the form-based taxonomy.",
+    "page": 2
+  },
+  {
+    "id": "6.c0",
+    "section": "6",
+    "type": "method",
+    "text": "Section 6 organizes resources into benchmarks/datasets and open-source frameworks relevant to memory, lifelong, and self-evolving agents.",
+    "page": 3
+  },
+  {
+    "id": "title.c0",
+    "section": "title",
+    "type": "claim",
+    "text": "Memory is a core capability of foundation model-based agents, underpinning long-horizon reasoning, continual adaptation, and effective environmental interaction.",
+    "page": 1
+  },
+  {
+    "id": "title.c1",
+    "section": "title",
+    "type": "claim",
+    "text": "The field of agent memory has become increasingly fragmented due to differing motivations, implementations, assumptions, evaluation protocols, and loosely defined terminologies.",
+    "page": 1
+  },
+  {
+    "id": "title.c2",
+    "section": "title",
+    "type": "claim",
+    "text": "Traditional taxonomies such as long/short-term memory are insufficient to capture the diversity and dynamics of contemporary agent memory systems.",
+    "page": 1
+  },
+  {
+    "id": "title.c3",
+    "section": "title",
+    "type": "method",
+    "text": "The survey distinguishes agent memory from related concepts including LLM memory, retrieval augmented generation (RAG), and context engineering.",
+    "page": 1
+  },
+  {
+    "id": "title.c4",
+    "section": "title",
+    "type": "result",
+    "text": "Three dominant realizations of agent memory are identified: token-level, parametric, and latent memory.",
+    "page": 1
+  },
+  {
+    "id": "title.c5",
+    "section": "title",
+    "type": "method",
+    "text": "A finer-grained functional taxonomy is proposed that distinguishes factual, experiential, and working memory, moving beyond coarse temporal categorizations.",
+    "page": 1
+  },
+  {
+    "id": "title.c6",
+    "section": "title",
+    "type": "definition",
+    "text": "Memory dynamics encompass how memory is formed, evolved, and retrieved over time as agents interact with their environments.",
+    "page": 1
+  },
+  {
+    "id": "title.c7",
+    "section": "title",
+    "type": "claim",
+    "text": "Emerging research frontiers include automation-oriented memory design, reinforcement learning integration, multimodal memory, shared memory for multi-agent systems, and trustworthiness issues.",
+    "page": 1
+  },
+  {
+    "id": "7.c0",
+    "section": "7",
+    "type": "claim",
+    "text": "Agent memory research is evolving from memory retrieval toward memory generation paradigms.",
+    "page": 3
+  },
+  {
+    "id": "7.c1",
+    "section": "7",
+    "type": "claim",
+    "text": "Memory management is progressing from hand-crafted systems to automatically constructed memory systems.",
+    "page": 3
+  },
+  {
+    "id": "7.c2",
+    "section": "7",
+    "type": "claim",
+    "text": "Reinforcement learning is being used to internalize memory management capabilities in agents.",
+    "page": 3
+  },
+  {
+    "id": "7.c3",
+    "section": "7",
+    "type": "claim",
+    "text": "Multi-agent systems are transitioning from isolated individual memories to shared cognitive substrates.",
+    "page": 3
+  },
+  {
+    "id": "7.c4",
+    "section": "7",
+    "type": "claim",
+    "text": "Trustworthy memory research builds on and extends prior work on trustworthy retrieval-augmented generation.",
+    "page": 3
+  },
+  {
+    "id": "7.c5",
+    "section": "7",
+    "type": "open-question",
+    "text": "Future research directions include multimodal memory, memory for world models, and human-cognitive connections as open frontiers.",
+    "page": 3
+  },
+  {
+    "id": "8.c0",
+    "section": "8",
+    "type": "claim",
+    "text": "LLM-powered agents have demonstrated remarkable progress in domains such as deep research, software engineering, and scientific discovery, advancing toward AGI.",
+    "page": 3
+  },
+  {
+    "id": "8.c1",
+    "section": "8",
+    "type": "definition",
+    "text": "An AI agent is typically equipped with capabilities including reasoning, planning, perception, memory, and tool-use beyond a pure LLM backbone.",
+    "page": 3
+  },
+  {
+    "id": "8.c2",
+    "section": "8",
+    "type": "claim",
+    "text": "Some agentic abilities such as reasoning and tool-use have been largely internalized within model parameters through reinforcement learning, while others still depend on external scaffolds.",
+    "page": 3
+  },
+  {
+    "id": "8.c3",
+    "section": "8",
+    "type": "claim",
+    "text": "Memory is a cornerstone agentic faculty that enables static LLMs to become adaptive agents capable of continual adaptation through environmental interaction.",
+    "page": 4
+  },
+  {
+    "id": "8.c4",
+    "section": "8",
+    "type": "claim",
+    "text": "Numerous application domains including personalized chatbots, recommender systems, social simulations, and financial investigations require proactive memory management in agents.",
+    "page": 4
+  },
+  {
+    "id": "8.c5",
+    "section": "8",
+    "type": "caveat",
+    "text": "Existing memory taxonomies were developed before recent methodological advances and do not fully reflect the current breadth and complexity of the research landscape.",
+    "page": 4
+  },
+  {
+    "id": "8.c6",
+    "section": "8",
+    "type": "claim",
+    "text": "Emerging 2025 directions such as memory frameworks that distill reusable tools from past experiences and memory-augmented test-time scaling remain underrepresented in earlier classification schemes.",
+    "page": 4
+  },
+  {
+    "id": "8.c7",
+    "section": "8",
+    "type": "claim",
+    "text": "Conceptual fragmentation in agent memory research, driven by proliferating terminologies, highlights the urgent need for a coherent unifying taxonomy.",
+    "page": 4
+  },
+  {
+    "id": "8.c8",
+    "section": "8",
+    "type": "method",
+    "text": "This survey aims to establish a systematic framework reconciling existing definitions, bridging emerging trends, and elucidating foundational principles of memory in agentic systems.",
+    "page": 4
+  },
+  {
+    "id": "memory.c0",
+    "section": "memory",
+    "type": "claim",
+    "text": "Agent memory can be organized into distinct categories including memory graphs, agentic memory, working memory, long context processing, and tool-integrated reasoning.",
+    "page": 9
+  },
+  {
+    "id": "memory.c1",
+    "section": "memory",
+    "type": "definition",
+    "text": "Memory graph approaches include systems such as Zep and AriGraph for structured memory representation.",
+    "page": 9
+  },
+  {
+    "id": "memory.c2",
+    "section": "memory",
+    "type": "definition",
+    "text": "Agentic memory systems include A-Mem and G-Memory as representative examples.",
+    "page": 9
+  },
+  {
+    "id": "memory.c3",
+    "section": "memory",
+    "type": "definition",
+    "text": "Long context processing approaches include architectural innovations such as Mamba, Memformer, MoA, Sparseformer, and NSA.",
+    "page": 9
+  },
+  {
+    "id": "memory.c4",
+    "section": "memory",
+    "type": "definition",
+    "text": "Working memory approaches include HiAgent, ReSum, and RAG as representative methods.",
+    "page": 9
+  },
+  {
+    "id": "memory.c5",
+    "section": "memory",
+    "type": "result",
+    "text": "Mixture-of-Memory is identified as an example architecture under the memory graph category.",
+    "page": 9
+  },
+  {
+    "id": "threemajormemoryforms.c0",
+    "section": "threemajormemoryforms",
+    "type": "definition",
+    "text": "Token-level Memory consists of explicit, discrete units that can be individually accessed, modified, reconstructed, and stored in structured form over time.",
+    "page": 13
+  },
+  {
+    "id": "threemajormemoryforms.c1",
+    "section": "threemajormemoryforms",
+    "type": "definition",
+    "text": "Parametric Memory is stored within model parameters and accessed implicitly during forward computation through statistical patterns in the parameter space.",
+    "page": 13
+  },
+  {
+    "id": "threemajormemoryforms.c2",
+    "section": "threemajormemoryforms",
+    "type": "definition",
+    "text": "Latent Memory is represented in the model's internal hidden states or evolving latent structures, persisting and updating during inference or across interaction cycles to capture context-dependent states.",
+    "page": 13
+  },
+  {
+    "id": "threemajormemoryforms.c3",
+    "section": "threemajormemoryforms",
+    "type": "claim",
+    "text": "The three memory forms establish a structural taxonomy for understanding what carries memory, each with distinct representational patterns and operational behaviors.",
+    "page": 13
+  },
+  {
+    "id": "threemajormemoryforms.c4",
+    "section": "threemajormemoryforms",
+    "type": "claim",
+    "text": "This classification of memory forms provides the conceptual foundation for analyzing why agents need memory and how memory shapes agent behavior over sustained interactions.",
+    "page": 13
+  },
+  {
+    "id": "rag.c0",
+    "section": "rag",
+    "type": "claim",
+    "text": "RAG systems can be categorized into modular RAG context engineering approaches and tool-integrated reasoning approaches.",
+    "page": 9
+  },
+  {
+    "id": "rag.c1",
+    "section": "rag",
+    "type": "definition",
+    "text": "Modular RAG frameworks include systems such as FlashRAG and ComposeRAG.",
+    "page": 9
+  },
+  {
+    "id": "rag.c2",
+    "section": "rag",
+    "type": "definition",
+    "text": "Tool-integrated reasoning approaches to RAG include systems such as ReTool, ToolLLM, Toolformer, VTool-R1, and ToRL.",
+    "page": 9
+  },
+  {
+    "id": "definitionof-token-levelmemory.c0",
+    "section": "definitionof-token-levelmemory",
+    "type": "definition",
+    "text": "Token-level memory stores information as persistent, discrete units that are externally accessible and inspectable, including text tokens, visual tokens, and audio frames.",
+    "page": 13
+  },
+  {
+    "id": "definitionof-token-levelmemory.c1",
+    "section": "definitionof-token-levelmemory",
+    "type": "claim",
+    "text": "Token-level memory is transparent, easy to edit, and straightforward to interpret, making it suitable for retrieval, routing, conflict handling, and coordination with parametric and latent memory.",
+    "page": 13
+  },
+  {
+    "id": "definitionof-token-levelmemory.c2",
+    "section": "definitionof-token-levelmemory",
+    "type": "claim",
+    "text": "Token-level memory is the most common memory form with the largest body of existing work.",
+    "page": 13
+  },
+  {
+    "id": "definitionof-token-levelmemory.c3",
+    "section": "definitionof-token-levelmemory",
+    "type": "claim",
+    "text": "All token-level memories share the property of being stored as discrete units but differ significantly in how those units are organized.",
+    "page": 13
+  },
+  {
+    "id": "definitionof-token-levelmemory.c4",
+    "section": "definitionof-token-levelmemory",
+    "type": "result",
+    "text": "The structural organization of stored tokens plays a central role in determining how efficiently an agent can search, update, or reason over past information.",
+    "page": 13
+  },
+  {
+    "id": "definitionof-token-levelmemory.c5",
+    "section": "definitionof-token-levelmemory",
+    "type": "method",
+    "text": "Token-level memory is categorized by inter-unit structural organization, moving from no explicit topology to multi-layer topologies, yielding three major types.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c0",
+    "section": "threemajortypesof-token-levelm",
+    "type": "definition",
+    "text": "Flat Memory (1D) accumulates memory units as sequences or bags with no explicit inter-unit topology.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c1",
+    "section": "threemajortypesof-token-levelm",
+    "type": "definition",
+    "text": "Planar Memory (2D) organizes memory units within a single layer using structures such as graphs, trees, or tables, with no cross-layer relations.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c2",
+    "section": "threemajortypesof-token-levelm",
+    "type": "definition",
+    "text": "Hierarchical Memory (3D) structures memory across multiple layers with inter-layer links, forming a volumetric or stratified memory organization.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c3",
+    "section": "threemajortypesof-token-levelm",
+    "type": "result",
+    "text": "Systems such as ExpeL, AWM, and ReasoningBank exemplify experience graph memory with different node/edge types under planar memory.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c4",
+    "section": "threemajortypesof-token-levelm",
+    "type": "result",
+    "text": "Systems such as MemGPT and MemoryBank exemplify tree-based planar memory organization.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c5",
+    "section": "threemajortypesof-token-levelm",
+    "type": "result",
+    "text": "Systems such as HiAgent, HippoRAG, and SGMem exemplify hierarchical multi-layer memory.",
+    "page": 13
+  },
+  {
+    "id": "threemajortypesof-token-levelm.c6",
+    "section": "threemajortypesof-token-levelm",
+    "type": "result",
+    "text": "Chunk-based systems such as Nemori, Mem0, and MemOS represent flat memory organization.",
+    "page": 13
+  },
+  {
+    "id": "keyquestions.c0",
+    "section": "keyquestions",
+    "type": "method",
+    "text": "Agent memory can be studied through a 'Forms\u2013Functions\u2013Dynamics' triangle covering architectural forms, functional roles, and operational lifecycle.",
+    "page": 5
+  },
+  {
+    "id": "keyquestions.c1",
+    "section": "keyquestions",
+    "type": "result",
+    "text": "Three mainstream memory implementations are identified: token-level, parametric, and latent memory.",
+    "page": 5
+  },
+  {
+    "id": "keyquestions.c2",
+    "section": "keyquestions",
+    "type": "definition",
+    "text": "Functional roles of memory are distinguished as factual memory, experiential memory, and working memory.",
+    "page": 5
+  },
+  {
+    "id": "keyquestions.c3",
+    "section": "keyquestions",
+    "type": "definition",
+    "text": "LLM-based agents operate over a heterogeneous action space including natural-language generation, tool invocation, planning, environment-control, and communication actions.",
+    "page": 6
+  },
+  {
+    "id": "keyquestions.c4",
+    "section": "keyquestions",
+    "type": "definition",
+    "text": "The agent policy is formally defined as a function of the current observation, a memory-derived signal, and the task specification.",
+    "page": 7
+  },
+  {
+    "id": "keyquestions.c5",
+    "section": "keyquestions",
+    "type": "definition",
+    "text": "Agent memory is represented as a unified evolving state M_t that can take various structural forms including text buffers, key-value stores, vector databases, or graph structures.",
+    "page": 7
+  },
+  {
+    "id": "keyquestions.c6",
+    "section": "keyquestions",
+    "type": "claim",
+    "text": "Short-term and long-term memory phenomena emerge from temporal patterns of formation, evolution, and retrieval operators rather than from discrete architectural modules.",
+    "page": 8
+  },
+  {
+    "id": "keyquestions.c7",
+    "section": "keyquestions",
+    "type": "caveat",
+    "text": "Agent memory is conflated in practice with LLM memory, RAG, and context engineering, but these concepts differ in scope, temporal characteristics, and functional roles.",
+    "page": 8
+  },
+  {
+    "id": "keyquestions.c8",
+    "section": "keyquestions",
+    "type": "claim",
+    "text": "Promising research frontiers include automation-oriented memory design, RL integration, multimodal memory, shared memory for multi-agent systems, and trustworthiness.",
+    "page": 6
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c0",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "definition",
+    "text": "Token-level memory can be taxonomized into three organizational forms based on topological complexity: Flat (1D), Planar (2D), and Hierarchical (3D) memory.",
+    "page": 14
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c1",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "definition",
+    "text": "Flat Memory stores information as linear sequences or independent clusters without explicit inter-unit topology, used for chunk sets, dialogue logs, and experience pools.",
+    "page": 14
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c2",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "definition",
+    "text": "Planar Memory introduces a single-layer structured layout where units are linked via tree or graph structures to capture relational dependencies.",
+    "page": 14
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c3",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "definition",
+    "text": "Hierarchical Memory employs multi-level forms such as pyramids or multi-layer graphs to facilitate vertical abstraction and cross-layer reasoning between different data granularities.",
+    "page": 14
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c4",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "claim",
+    "text": "The organizational spectrum from flat to hierarchical memory governs how token-level memory supports search, update, and reasoning as well as what capabilities it affords.",
+    "page": 14
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c5",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "claim",
+    "text": "Following ReAct, many long-horizon interaction task studies introduce explicit memory stored in plaintext, placing them within the scope of token-level memory.",
+    "page": 14
+  },
+  {
+    "id": "a-flat-memory-1d-b-planar-mem.c6",
+    "section": "a-flat-memory-1d-b-planar-mem",
+    "type": "result",
+    "text": "Many long-horizon interaction task studies emphasize compressing or folding accumulated interaction traces so agents can operate over long sequences without exceeding context limits.",
+    "page": 14
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c0",
+    "section": "definitionof-flat-1d-memory",
+    "type": "definition",
+    "text": "Flat Memory stores information as accumulations of discrete units without explicitly modeling semantic or relational dependencies among them.",
+    "page": 15
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c1",
+    "section": "definitionof-flat-1d-memory",
+    "type": "definition",
+    "text": "Units in Flat Memory may include text chunks, user profiles, experience trajectories, vector representations, or multimodal entries.",
+    "page": 15
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c2",
+    "section": "definitionof-flat-1d-memory",
+    "type": "definition",
+    "text": "Relationships among memory units are not encoded directly in Flat Memory.",
+    "page": 15
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c3",
+    "section": "definitionof-flat-1d-memory",
+    "type": "result",
+    "text": "Early dialogue memory approaches focused on preventing forgetting by storing raw dialogue history or generating recursive summaries to extend context windows.",
+    "page": 17
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c4",
+    "section": "definitionof-flat-1d-memory",
+    "type": "result",
+    "text": "MemGPT introduces an operating-system metaphor with hierarchical management to decouple active context from external storage for infinite context management.",
+    "page": 17
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c5",
+    "section": "definitionof-flat-1d-memory",
+    "type": "method",
+    "text": "Some works compress information into compact semantic representations or query-response pairs to improve retrieval precision.",
+    "page": 18
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c6",
+    "section": "definitionof-flat-1d-memory",
+    "type": "method",
+    "text": "Research has begun to define memory boundaries based on cognitive psychology, organizing information through syntactic tuples or segmenting events based on Bayesian surprise.",
+    "page": 18
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c7",
+    "section": "definitionof-flat-1d-memory",
+    "type": "result",
+    "text": "Systems like Think-in-Memory and RMM store inductive thoughts and retrospective reflections rather than mere factual records to guide future reasoning.",
+    "page": 18
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c8",
+    "section": "definitionof-flat-1d-memory",
+    "type": "result",
+    "text": "Memory systems have transitioned from static storage to autonomous and adaptive optimization, with reinforcement learning applied to optimize memory construction.",
+    "page": 18
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c9",
+    "section": "definitionof-flat-1d-memory",
+    "type": "definition",
+    "text": "Preference memory systems focus on modeling a user's evolving tastes, interests, and decision patterns, distinct from dialogue-centric memory.",
+    "page": 18
+  },
+  {
+    "id": "definitionof-flat-1d-memory.c10",
+    "section": "definitionof-flat-1d-memory",
+    "type": "caveat",
+    "text": "The categorization of flat memory methods into groups is organizational and does not imply that the categories are strictly parallel or mutually exclusive.",
+    "page": 15
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c0",
+    "section": "definitionof-planar-2d-memory",
+    "type": "definition",
+    "text": "Planar Memory establishes explicit association mechanisms within a single structural layer, breaking through a single storage pool to achieve organized rather than merely stored memory.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c1",
+    "section": "definitionof-planar-2d-memory",
+    "type": "result",
+    "text": "HAT builds a Hierarchical Aggregate Tree by segmenting long interactions and aggregating them step by step, supporting coarse-to-fine retrieval and outperforming flat vector indices in long-context question answering.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c2",
+    "section": "definitionof-planar-2d-memory",
+    "type": "method",
+    "text": "MemTree introduces a dynamic representation that infers hierarchical schemas from isolated conversation logs, allowing agents to use both detailed memories and abstract knowledge.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c3",
+    "section": "definitionof-planar-2d-memory",
+    "type": "claim",
+    "text": "Graph structures dominate 2D memory due to their ability to capture complex associations, causality, and temporal dynamics.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c4",
+    "section": "definitionof-planar-2d-memory",
+    "type": "method",
+    "text": "Ret-LLM abstracts external storage into addressable triple-based units, enabling the LLM to interact with a relation-centric table functioning like a lightweight knowledge graph.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c5",
+    "section": "definitionof-planar-2d-memory",
+    "type": "method",
+    "text": "PREMem shifts part of the inference burden to the memory construction phase by deriving structured memory items and their evolution relations from raw dialogue.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c6",
+    "section": "definitionof-planar-2d-memory",
+    "type": "method",
+    "text": "A-Mem standardizes knowledge into card-like units organized by relevance, grouping related memories into boxes to build a complete memory network.",
+    "page": 20
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c7",
+    "section": "definitionof-planar-2d-memory",
+    "type": "method",
+    "text": "Hybrid architectures such as Optimus-1 and D-SMART segregate distinct cognitive functions while sharing a common memory substrate.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c8",
+    "section": "definitionof-planar-2d-memory",
+    "type": "result",
+    "text": "Planar Memory enables retrieval mechanisms beyond simple iteration, including structured key-value lookups and relational traversal along graph edges.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c9",
+    "section": "definitionof-planar-2d-memory",
+    "type": "caveat",
+    "text": "Planar Memory faces a critical limitation in that without hierarchical storage, all memories must be consolidated into a single monolithic module, making it increasingly inadequate as task complexity grows.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-planar-2d-memory.c10",
+    "section": "definitionof-planar-2d-memory",
+    "type": "caveat",
+    "text": "High construction and search costs of Planar Memory significantly hinder its practical deployment.",
+    "page": 21
+  },
+  {
+    "id": "a-generate.c0",
+    "section": "a-generate",
+    "type": "method",
+    "text": "The Generate stage involves querying the LLM layer-wise through forward pass inspection to produce output tokens.",
+    "page": 25
+  },
+  {
+    "id": "a-generate.c1",
+    "section": "a-generate",
+    "type": "method",
+    "text": "Auxiliary models such as SLMs and LoRA decoder heads are used alongside LLM internal calculations to augment or interfere with the generation process.",
+    "page": 25
+  },
+  {
+    "id": "a-generate.c2",
+    "section": "a-generate",
+    "type": "definition",
+    "text": "The framework distinguishes three operational modes on LLM internals: Generate (a), Reuse (b), and Transform (c).",
+    "page": 25
+  },
+  {
+    "id": "engineering.c0",
+    "section": "engineering",
+    "type": "claim",
+    "text": "Agent memory largely subsumes what was historically called LLM memory, as many early 'LLM memory' systems (e.g., MemoryBank, MemGPT) actually addressed agentic challenges like tracking user preferences and accumulating experience across multi-turn interactions.",
+    "page": 9
+  },
+  {
+    "id": "engineering.c1",
+    "section": "engineering",
+    "type": "definition",
+    "text": "LLM-internal memory mechanisms\u2014such as KV cache management, long-context architectural modifications (RWKV, Mamba, diffusion-based LMs), and attention-sparsity methods\u2014are outside the scope of agent memory because they focus on intrinsic model dynamics rather than agentic behavior.",
+    "page": 9
+  },
+  {
+    "id": "engineering.c2",
+    "section": "engineering",
+    "type": "claim",
+    "text": "Few-shot prompting can be viewed as a form of long-term agent memory, where past exemplars or distilled task summaries serve as reusable knowledge incorporated through retrieval or context injection.",
+    "page": 9
+  },
+  {
+    "id": "engineering.c3",
+    "section": "engineering",
+    "type": "claim",
+    "text": "Self-reflection and iterative refinement methods align with short-term, inside-trial agent memory, as the agent leverages intermediate reasoning traces from prior attempts within the same task.",
+    "page": 9
+  },
+  {
+    "id": "engineering.c4",
+    "section": "engineering",
+    "type": "claim",
+    "text": "KV compression and context-window management techniques, when used to preserve salient information across a single task, function as short-term memory mechanisms in an agentic sense.",
+    "page": 9
+  },
+  {
+    "id": "engineering.c5",
+    "section": "engineering",
+    "type": "definition",
+    "text": "Classical RAG augments LLMs with access to static, externally maintained knowledge sources and does not maintain an evolving memory of past interactions, distinguishing it from agent memory.",
+    "page": 10
+  },
+  {
+    "id": "engineering.c6",
+    "section": "engineering",
+    "type": "definition",
+    "text": "Agent memory systems are instantiated within an agent's ongoing interaction with an environment, continuously incorporating new information from the agent's actions and environmental feedback into a persistent memory base.",
+    "page": 10
+  },
+  {
+    "id": "engineering.c7",
+    "section": "engineering",
+    "type": "caveat",
+    "text": "The boundary between RAG and agent memory has become increasingly blurred as retrieval systems grow more dynamic, with systems like HippoRAG being claimed by both communities.",
+    "page": 10
+  },
+  {
+    "id": "engineering.c8",
+    "section": "engineering",
+    "type": "result",
+    "text": "A practical distinction between RAG and agent memory lies in task domain: RAG is evaluated on knowledge-intensive single-inference benchmarks (e.g., HotpotQA), while agent memory is evaluated on multi-turn, temporally dependent, or environment-driven benchmarks (e.g., LoCoMo, LongMemEval, SWE-bench).",
+    "page": 10
+  },
+  {
+    "id": "engineering.c9",
+    "section": "engineering",
+    "type": "claim",
+    "text": "Graph-based retrieval forms a structural backbone for both RAG and agent memory, but only agent memory treats the graph as a living, evolving representation of experience.",
+    "page": 11
+  },
+  {
+    "id": "engineering.c10",
+    "section": "engineering",
+    "type": "claim",
+    "text": "Agentic RAG occupies the closest conceptual space to agent memory, but the key distinction is that agentic RAG typically operates over an external task-specific database, whereas agent memory maintains an internal, persistent, self-evolving memory base that accumulates knowledge across tasks.",
+    "page": 11
+  },
+  {
+    "id": "engineering.c11",
+    "section": "engineering",
+    "type": "definition",
+    "text": "Context engineering and agent memory are best understood as an intersection of distinct operational paradigms rather than a hierarchical subsumption: context engineering treats the context window as a constrained resource to optimize, while agent memory focuses on cognitive modeling of a persistent entity.",
+    "page": 11
+  },
+  {
+    "id": "engineering.c12",
+    "section": "engineering",
+    "type": "claim",
+    "text": "The boundary between context engineering and agent memory dissolves in working memory scenarios during long-horizon interactions, where both rely on the same summarization, dynamic retrieval, and recursive state update mechanisms.",
+    "page": 12
+  },
+  {
+    "id": "engineering.c13",
+    "section": "engineering",
+    "type": "claim",
+    "text": "Rolling summary serves as a shared foundational primitive functioning simultaneously as a buffer management strategy and a transient episodic memory mechanism in both context engineering and agent memory.",
+    "page": 12
+  },
+  {
+    "id": "definitionof-latent-memory.c0",
+    "section": "definitionof-latent-memory",
+    "type": "definition",
+    "text": "Latent memory is defined as memory carried implicitly in a model's internal representations such as KV cache, activations, hidden states, and latent embeddings, rather than stored as explicit human-readable tokens or dedicated parameter sets.",
+    "page": 26
+  },
+  {
+    "id": "definitionof-latent-memory.c1",
+    "section": "definitionof-latent-memory",
+    "type": "claim",
+    "text": "Latent memory avoids exposing memory in plaintext and introduces less inference latency compared to explicit memory approaches.",
+    "page": 26
+  },
+  {
+    "id": "definitionof-latent-memory.c2",
+    "section": "definitionof-latent-memory",
+    "type": "claim",
+    "text": "Latent memory potentially offers better performance gains by preserving fine-grained contextual signals within the model's own representational space.",
+    "page": 26
+  },
+  {
+    "id": "definitionof-latent-memory.c3",
+    "section": "definitionof-latent-memory",
+    "type": "method",
+    "text": "Prior work on latent memory is organized by the origin of latent memory, i.e., how the latent state is formed and introduced into the agent.",
+    "page": 26
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c0",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "definition",
+    "text": "Hierarchical memory organizes information across layers using inter-level connections to form a volumetric structured space supporting representations from raw observations to high-level thematic patterns.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c1",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "definition",
+    "text": "Cross-layer connections yield a volumetric memory space that can be navigated both laterally among units and vertically across abstraction levels.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c2",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "claim",
+    "text": "Hierarchical Memory moves beyond simple stratification by employing multi-level graph structures or neuroscience-inspired mechanisms to build human-like volumetric memory spaces.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c3",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "definition",
+    "text": "The Pyramid category constructs memory as multi-level pyramids where information is progressively organized into higher abstraction layers and queried in a coarse-to-fine manner.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c4",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "result",
+    "text": "HiAgent manages long-horizon tasks through a subgoal-centered hierarchical working memory, compressing completed subgoals into higher-level summaries for selective retrieval.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c5",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "GraphRAG builds a multi-level graph index via community detection, recursively aggregating entity-level subgraphs into community-level summaries.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c6",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "Zep formalizes agent memory as a Temporal Knowledge Graph and performs community partitioning similar to GraphRAG.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c7",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "ILM-TR uses a tree-structured pyramidal index with an Inner Loop mechanism that repeatedly queries summaries at different abstraction levels until retrieved evidence and generated answers stabilize.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c8",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "EMG-RAG organizes an Editable Memory Graph into three tiers, with a tree-like type and subclass index above an entity-level memory graph.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c9",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "G-Memory structures shared multi-agent experience using a three-tier graph hierarchy of insight, query, and interaction graphs enabling query-centric vertical traversal.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c10",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "definition",
+    "text": "The Multi-Layer category emphasizes layered specialization, organizing memory into distinct modules or levels focused on particular information types or functions.",
+    "page": 21
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c11",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "H-Mem explicitly arranges long-term dialogue memory into a multi-level hierarchy ordered by semantic abstraction, with fine-grained snippets at lower layers and compressed summaries at higher layers.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c12",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "HippoRAG factors memory into an associative indexing component implemented as an open knowledge graph and an underlying passage store, using the graph layer to orchestrate multi-hop retrieval.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c13",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "HippoRAG 2 extends HippoRAG into a non-parametric continual-learning setting with deeper passage integration and online LLM filtering.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c14",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "AriGraph separates memory by information type within a unified graph, combining a semantic knowledge-graph world model with an event-level component linking observations to the semantic backbone.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c15",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "CAM layers the reading process itself by incrementally clustering overlapping semantic graphs into a hierarchical schemata structure.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c16",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "method",
+    "text": "CompassMem and MAGMA explore hierarchical composition strategies enriched with logical relations to make memory retrieval more efficient and provide benefits beyond mere semantic information.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c17",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "result",
+    "text": "Hierarchical Memory enables complex multi-path queries that move through relational networks within each layer and across abstraction levels between layers, supporting high-precision retrieval.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c18",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "caveat",
+    "text": "The complexity and dense information organization of Hierarchical Memory creates challenges for retrieval efficiency and overall effectiveness.",
+    "page": 22
+  },
+  {
+    "id": "definitionof-hierarchical-3d-m.c19",
+    "section": "definitionof-hierarchical-3d-m",
+    "type": "open-question",
+    "text": "Ensuring all stored memories remain semantically meaningful and designing the optimal three-dimensional layout of hierarchical memory systems remain difficult open problems.",
+    "page": 22
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c0",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "definition",
+    "text": "Parametric memory can be divided into internal memory (encoded in original model parameters) and external memory (stored in auxiliary parameter sets like adapters or LoRA modules).",
+    "page": 22
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c1",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "claim",
+    "text": "Internal parametric memory does not add extra parameters or modules but requires retraining to update, making it costly and prone to catastrophic forgetting.",
+    "page": 23
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c2",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "claim",
+    "text": "Internal parametric memory is more suitable for large-scale storage of domain knowledge or task priors rather than short-term personalized or working memory.",
+    "page": 24
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c3",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "method",
+    "text": "Pre-training phase memory injection methods such as LMLM and HierMemLM store memory retrieval mechanisms in model parameters while keeping the knowledge itself in an external knowledge base.",
+    "page": 23
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c4",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "method",
+    "text": "Mid-training phase approaches incorporate generalizable agent experience and improve long-window performance or efficiency of LLMs.",
+    "page": 23
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c5",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "method",
+    "text": "Post-training methods such as SELF-PARAM inject knowledge via KL divergence distillation without requiring extra parameters.",
+    "page": 23
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c6",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "method",
+    "text": "MEND achieves fast knowledge editing by using small networks to modify the gradients of large models during post-training.",
+    "page": 23
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c7",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "claim",
+    "text": "External parametric memory introduces memory through auxiliary parameters without altering the original LLM parameters, serving as a compromise between token-form and internal parameter memory.",
+    "page": 24
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c8",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "method",
+    "text": "WISE introduces a dual-parameter memory setup separating pre-trained and edited knowledge with a routing mechanism that dynamically selects parameter memory at inference time.",
+    "page": 24
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c9",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "method",
+    "text": "ELDER maintains multiple LoRA modules with a learned routing function that adaptively selects or blends them based on input semantics for long-term editing scenarios.",
+    "page": 24
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c10",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "claim",
+    "text": "Adapter-based external parametric memory methods store and retrieve memory in a modular and reversible manner, avoiding catastrophic interference from directly modifying core model weights.",
+    "page": 24
+  },
+  {
+    "id": "twomajor-types-ofparametricmem.c11",
+    "section": "twomajor-types-ofparametricmem",
+    "type": "caveat",
+    "text": "Storing memory as tokens in the input window leads to insufficient understanding of memory content by the model.",
+    "page": 24
+  },
+  {
+    "id": "b-resue-c-transform.c0",
+    "section": "b-resue-c-transform",
+    "type": "definition",
+    "text": "Latent memory operates within the model's internal representational space, unlike explicit text storage.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c1",
+    "section": "b-resue-c-transform",
+    "type": "definition",
+    "text": "The Latent Memory framework is categorized by three origins of latent state: Generate, Reuse, and Transform.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c2",
+    "section": "b-resue-c-transform",
+    "type": "method",
+    "text": "MAC compresses information from new documents into compact modulations via an amortization network and stores them in a memory bank.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c3",
+    "section": "b-resue-c-transform",
+    "type": "method",
+    "text": "Retroformer proposes a learning paradigm for memorizing experiences of successes or failures in past task executions.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c4",
+    "section": "b-resue-c-transform",
+    "type": "result",
+    "text": "External parametric memory can be added, removed, or replaced without interfering with the base model's pre-trained representation space, supporting modular updates and task-specific personalization.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c5",
+    "section": "b-resue-c-transform",
+    "type": "claim",
+    "text": "External parametric memory avoids catastrophic forgetting or global weight distortion that may occur in full model fine-tuning.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c6",
+    "section": "b-resue-c-transform",
+    "type": "caveat",
+    "text": "The effectiveness of memory injection via external parameter modules depends on how well those parameters interface with internal parametric knowledge.",
+    "page": 25
+  },
+  {
+    "id": "b-resue-c-transform.c7",
+    "section": "b-resue-c-transform",
+    "type": "caveat",
+    "text": "External parameter modules influence the model indirectly, mediated through the model's attention and computation pathways.",
+    "page": 25
+  },
+  {
+    "id": "threeprimarymemory-functions.c0",
+    "section": "threeprimarymemory-functions",
+    "type": "definition",
+    "text": "FactualMemory stores and retrieves explicit declarative facts about past events, user preferences, and environmental states to support context awareness and personalized responses.",
+    "page": 32
+  },
+  {
+    "id": "threeprimarymemory-functions.c1",
+    "section": "threeprimarymemory-functions",
+    "type": "definition",
+    "text": "ExperientialMemory encodes procedural and strategic knowledge abstracted from past trajectories, failures, and successes to enable continual learning and self-evolution.",
+    "page": 31
+  },
+  {
+    "id": "threeprimarymemory-functions.c2",
+    "section": "threeprimarymemory-functions",
+    "type": "definition",
+    "text": "WorkingMemory is a capacity-limited, dynamically controlled scratchpad for active context management within a single task or session.",
+    "page": 31
+  },
+  {
+    "id": "threeprimarymemory-functions.c3",
+    "section": "threeprimarymemory-functions",
+    "type": "result",
+    "text": "The three memory systems form an interconnected cognitive loop consisting of encoding, processing, and retrieval stages that allow agents to learn from the past and reason in the present simultaneously.",
+    "page": 31
+  },
+  {
+    "id": "threeprimarymemory-functions.c4",
+    "section": "threeprimarymemory-functions",
+    "type": "method",
+    "text": "In agent systems, the episodic-semantic distinction from cognitive science is operationalized as a processing continuum rather than a rigid dichotomy, beginning with episodic traces and progressing to semantic fact bases via summarization, reflection, entity extraction, and fact induction.",
+    "page": 33
+  },
+  {
+    "id": "threeprimarymemory-functions.c5",
+    "section": "threeprimarymemory-functions",
+    "type": "claim",
+    "text": "FactualMemory ensures three fundamental interaction properties: consistency (stable behavior over time), coherence (robust context awareness), and adaptability (personalization based on stored profiles).",
+    "page": 33
+  },
+  {
+    "id": "threeprimarymemory-functions.c6",
+    "section": "threeprimarymemory-functions",
+    "type": "method",
+    "text": "Raw event streams such as dialogue turns, user actions, and environment states are gradually transformed into reusable semantic fact bases stored in vector databases, key-value stores, or knowledge graphs.",
+    "page": 33
+  },
+  {
+    "id": "memory-memory-memory.c0",
+    "section": "memory-memory-memory",
+    "type": "claim",
+    "text": "Token-level memory is symbolic, addressable, and transparent, making it best suited for high-stakes, auditable, and high-frequency update scenarios such as chatbots, recommendation systems, and legal domains.",
+    "page": 29
+  },
+  {
+    "id": "memory-memory-memory.c1",
+    "section": "memory-memory-memory",
+    "type": "claim",
+    "text": "Parametric memory is implicit, abstract, and generalizable, making it naturally suited for tasks requiring conceptual understanding, broad pattern induction, and deeply ingrained behavioral patterns such as role-playing and mathematical reasoning.",
+    "page": 30
+  },
+  {
+    "id": "memory-memory-memory.c2",
+    "section": "memory-memory-memory",
+    "type": "claim",
+    "text": "Latent memory balances flexibility and efficiency, supports multimodal integration, and prioritizes performance and scalability over interpretability, making it suitable for on-device deployment and privacy-sensitive domains.",
+    "page": 31
+  },
+  {
+    "id": "memory-memory-memory.c3",
+    "section": "memory-memory-memory",
+    "type": "result",
+    "text": "KV cache compression methods such as Scissorhands, SnapKV, PyramidKV, SirLLM, RazorAttention, and H2O enable LLMs to extend usable context length by selectively retaining the most informative token representations.",
+    "page": 29
+  },
+  {
+    "id": "memory-memory-memory.c4",
+    "section": "memory-memory-memory",
+    "type": "caveat",
+    "text": "Latent memory transformation through selection, retrieval enhancement, or compressed re-encoding produces more compact and information-dense representations but risks information loss and increased system complexity.",
+    "page": 29
+  },
+  {
+    "id": "memory-memory-memory.c5",
+    "section": "memory-memory-memory",
+    "type": "claim",
+    "text": "Choosing the right memory type for a task implicitly expresses how designers want information to shape agent behavior, making it far more than a simple combinatorial choice.",
+    "page": 29
+  },
+  {
+    "id": "memory-memory-memory.c6",
+    "section": "memory-memory-memory",
+    "type": "definition",
+    "text": "Agent memory is not a monolithic component but a set of distinct functional capabilities, each serving a unique objective in enabling persistent, intelligent behavior.",
+    "page": 31
+  },
+  {
+    "id": "memory-memory-memory.c7",
+    "section": "memory-memory-memory",
+    "type": "definition",
+    "text": "The functional taxonomy of agent memory distinguishes between long-term memory as a persistent cross-session knowledge store and short-term memory as a transient in-session workspace for active reasoning.",
+    "page": 31
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c0",
+    "section": "threemajortypesof-latentmemory",
+    "type": "definition",
+    "text": "Latent memory can be categorized into three types: Generate (new representations created by a model/module), Reuse (prior activations directly carried over, e.g., KV-cache), and Transform (existing latent states restructured or compressed).",
+    "page": 26
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c1",
+    "section": "threemajortypesof-latentmemory",
+    "type": "definition",
+    "text": "In the Generate paradigm, models or auxiliary encoders create compact continuous states that summarize long contexts, task trajectories, or multimodal inputs for reuse in later reasoning.",
+    "page": 26
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c2",
+    "section": "threemajortypesof-latentmemory",
+    "type": "method",
+    "text": "Generate-type methods are classified based on the form of memory rather than the learning mechanism, distinguishing them from parametric memory even when learned encoding is involved.",
+    "page": 26
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c3",
+    "section": "threemajortypesof-latentmemory",
+    "type": "result",
+    "text": "Gist tokens, sentinel tokens, soft tokens, summary vectors, and matrix slots are all concrete forms of generated latent memory used across different methods.",
+    "page": 26
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c4",
+    "section": "threemajortypesof-latentmemory",
+    "type": "claim",
+    "text": "Some Generate-type methods internalize memory generation within parameter dynamics, such as Titans using online-updated MLP weights and MemGen using LoRA adapters to insert latent fragments.",
+    "page": 27
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c5",
+    "section": "threemajortypesof-latentmemory",
+    "type": "result",
+    "text": "In multimodal settings, generative latent memory encodes images, audio, and video as compact latent representations, enabling plug-and-play memory for VLMs and embodied agents.",
+    "page": 27
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c6",
+    "section": "threemajortypesof-latentmemory",
+    "type": "caveat",
+    "text": "Generate-type latent memory risks information loss or bias during the generation process, and states can drift or accumulate errors over multiple read-write cycles.",
+    "page": 28
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c7",
+    "section": "threemajortypesof-latentmemory",
+    "type": "definition",
+    "text": "Reuse-type methods directly leverage the model's internal KV-cache activations as memory without transforming or compressing the stored KV pairs.",
+    "page": 28
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c8",
+    "section": "threemajortypesof-latentmemory",
+    "type": "claim",
+    "text": "Biological memory can be framed as a key-value system where keys serve as retrieval addresses and values encode stored content, conceptually aligning with KV-based memory in LLMs.",
+    "page": 28
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c9",
+    "section": "threemajortypesof-latentmemory",
+    "type": "caveat",
+    "text": "Reuse-type methods preserve full fidelity of model activations but suffer from rapidly growing memory consumption and reduced retrieval efficiency as context length increases.",
+    "page": 28
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c10",
+    "section": "threemajortypesof-latentmemory",
+    "type": "definition",
+    "text": "Transform-type latent memory methods modify, compress, or restructure existing latent states rather than generating new ones or directly reusing raw KV caches.",
+    "page": 28
+  },
+  {
+    "id": "threemajortypesof-latentmemory.c11",
+    "section": "threemajortypesof-latentmemory",
+    "type": "claim",
+    "text": "Transform-type methods occupy a conceptual middle ground between Generate-type and Reuse-type latent memory approaches.",
+    "page": 28
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c0",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "definition",
+    "text": "Case-based memory stores minimally processed historical episodes with high fidelity to support direct replay and use as in-context exemplars.",
+    "page": 38
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c1",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "definition",
+    "text": "Strategy-based memory distills transferable reasoning patterns, workflows, and high-level insights from past trajectories to guide planning across diverse scenarios.",
+    "page": 38
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c2",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "definition",
+    "text": "Skill-based memory encapsulates executable procedural capacities\u2014from code snippets to API protocols\u2014that operationalize abstract strategies into verifiable actions.",
+    "page": 38
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c3",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "claim",
+    "text": "Case-based memory offers high informational fidelity and verifiable evidence for imitation, but imposes challenges in retrieval efficiency and context window consumption.",
+    "page": 39
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c4",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "method",
+    "text": "Memento uses soft Q-learning to dynamically refine the probability of selecting high-utility past trajectories for retrieval.",
+    "page": 39
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c5",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "method",
+    "text": "The early experience paradigm constructs reward-free, agent-generated interaction traces and integrates them into model parameters via mid-training to enhance generalization.",
+    "page": 39
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c6",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "definition",
+    "text": "Strategy-based memory is categorized into three types of increasing abstraction: atomic insights, sequential workflows, and schematic patterns.",
+    "page": 40
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c7",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "result",
+    "text": "Agent Workflow Memory (AWM) induces reusable workflows on Mind2Web and WebArena benchmarks, improving success rates and reducing steps without updating base model weights.",
+    "page": 40
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c8",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "claim",
+    "text": "Strategy-based memory distills generalizable schemas to constrain the search space and improve robustness on unseen tasks, unlike case-based memory which relies on raw, potentially noisy trajectories.",
+    "page": 41
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c9",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "claim",
+    "text": "Strategy-based memory functions as structural guidelines rather than executable actions, necessitating skill-based memory for grounded execution.",
+    "page": 41
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c10",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "definition",
+    "text": "Skill memory must satisfy three criteria: it must be callable by the agent, its outcomes must be verifiable, and it must compose with other skills to form larger routines.",
+    "page": 41
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c11",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "method",
+    "text": "Voyager exemplifies a skill library pattern in which successful sub-trajectories are distilled into reusable code snippets for open-ended tasks.",
+    "page": 41
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c12",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "method",
+    "text": "The Darwin G\u00f6del Machine extends code-snippet skill memory by safely rewriting its own code under empirical validation, yielding self-referential and progressively more capable skill sets.",
+    "page": 41
+  },
+  {
+    "id": "threetypes-ofexperientialmemor.c13",
+    "section": "threetypes-ofexperientialmemor",
+    "type": "claim",
+    "text": "Robust agents typically synergize all three memory types: strategies provide abstract planning logic while skills handle grounded execution and cases supply factual evidence.",
+    "page": 41
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c0",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "definition",
+    "text": "Memory Consolidation merges new and existing memories through reflective integration to form generalized insights, ensuring cumulative rather than isolated learning.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c1",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "definition",
+    "text": "Memory Updating resolves conflicts between new and existing memories by correcting and supplementing the repository to maintain accuracy and relevance.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c2",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "definition",
+    "text": "Memory Forgetting removes outdated or redundant information to free capacity, improve efficiency, and prevent performance degradation from knowledge overload.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c3",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "claim",
+    "text": "The three mechanisms collectively maintain the generalization, accuracy, and timeliness of the memory repository.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c4",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "result",
+    "text": "Memory consolidation serves to reorganize fragmented information into coherent structures and to extract reusable patterns from specific events for cross-task generalization.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c5",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "open-question",
+    "text": "A central challenge in consolidation is determining the granularity at which new memories should be matched and merged with existing ones.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c6",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "method",
+    "text": "Local consolidation in RMM retrieves the top-K most similar candidate memories for each new topic and uses an LLM to decide whether merging is appropriate, reducing incorrect generalization.",
+    "page": 55
+  },
+  {
+    "id": "threemechanismsof-memoryevolut.c7",
+    "section": "threemechanismsof-memoryevolut",
+    "type": "claim",
+    "text": "Consolidation strategies span a spectrum from local content merging to cluster-level fusion and global integration.",
+    "page": 55
+  },
+  {
+    "id": "twotypesof-factual-memory.c0",
+    "section": "twotypesof-factual-memory",
+    "type": "definition",
+    "text": "User factual memory persists verifiable facts about a specific user across sessions to prevent coreference drift, repeated elicitation, and contradictory responses.",
+    "page": 35
+  },
+  {
+    "id": "twotypesof-factual-memory.c1",
+    "section": "twotypesof-factual-memory",
+    "type": "method",
+    "text": "Dialogue coherence in user factual memory is achieved through two complementary strategies: heuristic selection (ranking by relevance, recency, importance) and semantic abstraction (transforming raw dialogue into higher-level representations).",
+    "page": 35
+  },
+  {
+    "id": "twotypesof-factual-memory.c2",
+    "section": "twotypesof-factual-memory",
+    "type": "result",
+    "text": "Systems like Think in Memory and Reflective Memory Management convert raw interaction traces into thought representations via iterative update operations, enabling stable semantic memory querying.",
+    "page": 35
+  },
+  {
+    "id": "twotypesof-factual-memory.c3",
+    "section": "twotypesof-factual-memory",
+    "type": "definition",
+    "text": "Goal consistency requires an agent to maintain and refine an explicit task representation over time to minimize intent drift.",
+    "page": 35
+  },
+  {
+    "id": "twotypesof-factual-memory.c4",
+    "section": "twotypesof-factual-memory",
+    "type": "method",
+    "text": "For complex long-horizon tasks, memory is structured to facilitate localized retrieval centered on the active goal, with systems like A-Mem organizing memories as interconnected graphs of linked notes.",
+    "page": 35
+  },
+  {
+    "id": "twotypesof-factual-memory.c5",
+    "section": "twotypesof-factual-memory",
+    "type": "result",
+    "text": "Integrating retrieval-based ranking with generative abstraction upgrades the system from simple similarity matching to active maintenance of explicit goals and constraints, fostering trust and operational efficiency.",
+    "page": 35
+  },
+  {
+    "id": "twotypesof-factual-memory.c6",
+    "section": "twotypesof-factual-memory",
+    "type": "definition",
+    "text": "Environment factual memory pertains to entities and states external to the user, such as documents, codebases, tools, and interaction traces, and is categorized along knowledge persistence and shared access dimensions.",
+    "page": 36
+  },
+  {
+    "id": "twotypesof-factual-memory.c7",
+    "section": "twotypesof-factual-memory",
+    "type": "method",
+    "text": "LMLM explicitly decouples factual knowledge from model weights by externalizing it into a database, enabling direct knowledge edits and provenance verification without retraining.",
+    "page": 36
+  },
+  {
+    "id": "twotypesof-factual-memory.c8",
+    "section": "twotypesof-factual-memory",
+    "type": "method",
+    "text": "Parameter-centric approaches such as MEMORYLLM, M+, and WISE incorporate trainable memory pools or side networks to enable model editing and adaptation to dynamic environments.",
+    "page": 36
+  },
+  {
+    "id": "twotypesof-factual-memory.c9",
+    "section": "twotypesof-factual-memory",
+    "type": "claim",
+    "text": "Shared memory in multi-agent settings establishes a common factual foundation that aligns goals, carries intermediate artifacts, and eliminates redundant work by providing centralized access to accumulated insights.",
+    "page": 36
+  },
+  {
+    "id": "twotypesof-factual-memory.c10",
+    "section": "twotypesof-factual-memory",
+    "type": "result",
+    "text": "Social simulation platforms model the global environment and public interaction logs as a shared memory substrate that is incrementally updated, allowing information to diffuse naturally among agents.",
+    "page": 36
+  },
+  {
+    "id": "twotypesof-factual-memory.c11",
+    "section": "twotypesof-factual-memory",
+    "type": "result",
+    "text": "Environment factual memory improves completeness, interpretability, and editability on the knowledge axis, and maintains cross-agent and cross-stage consistency on the collaboration axis.",
+    "page": 36
+  },
+  {
+    "id": "twotypesof-workingmemory.c0",
+    "section": "twotypesof-workingmemory",
+    "type": "definition",
+    "text": "Single-turn working memory actively constructs a writable workspace by filtering and transforming raw information to increase density under fixed attention and memory budgets.",
+    "page": 43
+  },
+  {
+    "id": "twotypesof-workingmemory.c1",
+    "section": "twotypesof-workingmemory",
+    "type": "definition",
+    "text": "Input condensation techniques fall into three paradigms: hard condensation (discrete token selection), soft condensation (dense latent vector encoding), and hybrid approaches combining both.",
+    "page": 43
+  },
+  {
+    "id": "twotypesof-workingmemory.c2",
+    "section": "twotypesof-workingmemory",
+    "type": "caveat",
+    "text": "Hard condensation methods like LLMLingua and LongLLMLingua use token perplexity to discard predictable or task-irrelevant content, but risk severing syntactic or semantic dependencies.",
+    "page": 43
+  },
+  {
+    "id": "twotypesof-workingmemory.c3",
+    "section": "twotypesof-workingmemory",
+    "type": "caveat",
+    "text": "Soft condensation methods such as Gist, ICAE, and AutoCompressors achieve high compression ratios but require additional training and may obscure fine-grained details.",
+    "page": 43
+  },
+  {
+    "id": "twotypesof-workingmemory.c4",
+    "section": "twotypesof-workingmemory",
+    "type": "definition",
+    "text": "Observation abstraction transforms raw high-dimensional observations into structured semantic representations to prevent agents from being overwhelmed by raw data.",
+    "page": 43
+  },
+  {
+    "id": "twotypesof-workingmemory.c5",
+    "section": "twotypesof-workingmemory",
+    "type": "caveat",
+    "text": "Single-turn working memory optimization is strictly intra-turn, addressing breadth and complexity of static inputs rather than temporal continuity of dynamic interactions.",
+    "page": 45
+  },
+  {
+    "id": "twotypesof-workingmemory.c6",
+    "section": "twotypesof-workingmemory",
+    "type": "claim",
+    "text": "In multi-turn settings, the primary bottleneck shifts from instantaneous context capacity to continuous maintenance of task state and historical relevance.",
+    "page": 45
+  },
+  {
+    "id": "twotypesof-workingmemory.c7",
+    "section": "twotypesof-workingmemory",
+    "type": "result",
+    "text": "Accumulation of interaction history in long-horizon tasks inevitably saturates attention budgets, increases latency, and induces goal drift.",
+    "page": 45
+  },
+  {
+    "id": "twotypesof-workingmemory.c8",
+    "section": "twotypesof-workingmemory",
+    "type": "definition",
+    "text": "State consolidation maps an ever-growing interaction trajectory into a fixed-size state space through dynamic updates, treating interaction as a streaming environment.",
+    "page": 45
+  },
+  {
+    "id": "twotypesof-workingmemory.c9",
+    "section": "twotypesof-workingmemory",
+    "type": "definition",
+    "text": "Hierarchical folding decomposes task trajectories based on subgoals, maintaining fine-grained traces only while a subtask is active and folding completed sub-trajectories into concise summaries.",
+    "page": 45
+  },
+  {
+    "id": "twotypesof-workingmemory.c10",
+    "section": "twotypesof-workingmemory",
+    "type": "definition",
+    "text": "Cognitive planning elevates working memory to a forward-looking structure that guides future actions, rather than merely summarizing the past.",
+    "page": 45
+  },
+  {
+    "id": "twotypesof-workingmemory.c11",
+    "section": "twotypesof-workingmemory",
+    "type": "result",
+    "text": "Multi-turn working memory mechanisms effectively decouple reasoning performance from interaction length by integrating state consolidation, hierarchical folding, and cognitive planning.",
+    "page": 46
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c0",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Semantic summarization transforms raw observational data into compact, semantically rich summaries capturing global high-level information rather than specific factual details.",
+    "page": 48
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c1",
+    "section": "fivecategoriesof-memory-format",
+    "type": "result",
+    "text": "Incremental semantic summarization fuses new information chunks with existing summaries over time, circumventing the O(n\u00b2) computational burden of full-sequence processing.",
+    "page": 50
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c2",
+    "section": "fivecategoriesof-memory-format",
+    "type": "method",
+    "text": "Reinforcement learning methods such as Mem1 (PPO) and MemAgent (GRPO) enhance the LLM's own summarization capability rather than relying on auxiliary networks.",
+    "page": 50
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c3",
+    "section": "fivecategoriesof-memory-format",
+    "type": "result",
+    "text": "Partitioned semantic summarization divides information into distinct semantic partitions and generates separate summaries, offering superior efficiency and finer-grained semantics compared to incremental approaches but risking loss of cross-partition dependencies.",
+    "page": 50
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c4",
+    "section": "fivecategoriesof-memory-format",
+    "type": "claim",
+    "text": "Semantic summarization is a lossy compression mechanism that prioritizes global semantic coherence over local factual precision, making it ideal for long-term dialogue but limiting utility in evidence-critical tasks.",
+    "page": 50
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c5",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Knowledge distillation operates at finer granularity than semantic summarization, extracting reusable factual and experiential knowledge from interaction trajectories or documents.",
+    "page": 50
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c6",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Distilling factual memory transforms raw interactions into explicit declarative knowledge about users and environmental states to maintain consistency and adaptability.",
+    "page": 51
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c7",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Distilling experiential memory extracts planning strategies from historical trajectories, enabling cross-task knowledge transfer and movement toward lifelong learning.",
+    "page": 51
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c8",
+    "section": "fivecategoriesof-memory-format",
+    "type": "method",
+    "text": "H2R introduces a two-tier reflection mechanism providing both high-level planning insights and fine-grained step-wise execution insights, addressing the gap in prior work that lacked step-level granularity.",
+    "page": 51
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c9",
+    "section": "fivecategoriesof-memory-format",
+    "type": "method",
+    "text": "Trainable distillation methods such as Memory-R1 use a dedicated LLM Extract module to obtain experiential and factual knowledge in an end-to-end framework.",
+    "page": 51
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c10",
+    "section": "fivecategoriesof-memory-format",
+    "type": "claim",
+    "text": "The five memory formation strategies are not mutually exclusive, and a single algorithm can integrate multiple strategies and translate knowledge across different representations.",
+    "page": 48
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c11",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Structured construction organizes amorphous source data into explicit topological representations such as knowledge graphs or hierarchical trees to enhance explainability and support multi-hop reasoning.",
+    "page": 48
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c12",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Latent representation encodes raw experiences directly into machine-native formats such as vector embeddings or KV states within a continuous latent space.",
+    "page": 48
+  },
+  {
+    "id": "fivecategoriesof-memory-format.c13",
+    "section": "fivecategoriesof-memory-format",
+    "type": "definition",
+    "text": "Parametric internalization consolidates external memories into the model's weight space through parameter updates, transforming retrievable information into the agent's intrinsic competence.",
+    "page": 48
+  },
+  {
+    "id": "c-forgetting-b-updating.c0",
+    "section": "c-forgetting-b-updating",
+    "type": "result",
+    "text": "Cluster-level fusion methods like PREMem and EverMemOS capture cross-instance regularities by aligning new memory clusters with existing ones and merging semantically similar entries.",
+    "page": 56
+  },
+  {
+    "id": "c-forgetting-b-updating.c1",
+    "section": "c-forgetting-b-updating",
+    "type": "claim",
+    "text": "Global integration consolidates high-level structured knowledge from complete experience history, improving generalization, reasoning accuracy, and personalized decision-making.",
+    "page": 57
+  },
+  {
+    "id": "c-forgetting-b-updating.c2",
+    "section": "c-forgetting-b-updating",
+    "type": "caveat",
+    "text": "Consolidation risks information smoothing, where outlier events or unique exceptions may be lost during abstraction, reducing sensitivity to anomalies.",
+    "page": 57
+  },
+  {
+    "id": "c-forgetting-b-updating.c3",
+    "section": "c-forgetting-b-updating",
+    "type": "definition",
+    "text": "Memory update aims to maintain factual consistency and continual adaptation without full model retraining by performing localized correction and synchronization.",
+    "page": 57
+  },
+  {
+    "id": "c-forgetting-b-updating.c4",
+    "section": "c-forgetting-b-updating",
+    "type": "result",
+    "text": "External memory update mechanisms have evolved from rule-based destructive replacement to temporally aware soft deletion, dual-phase strategies, and reinforcement-learning-based policy learning.",
+    "page": 57
+  },
+  {
+    "id": "c-forgetting-b-updating.c5",
+    "section": "c-forgetting-b-updating",
+    "type": "result",
+    "text": "Zep introduced temporal annotations that mark conflicting facts with invalid timestamps rather than deleting them, preserving both semantic consistency and temporal integrity.",
+    "page": 57
+  },
+  {
+    "id": "c-forgetting-b-updating.c6",
+    "section": "c-forgetting-b-updating",
+    "type": "result",
+    "text": "Mem-\u03b1 formulates memory updating as a policy-learning problem, enabling the LLM to learn when and how to update, achieving dynamic trade-offs between stability and freshness.",
+    "page": 58
+  },
+  {
+    "id": "c-forgetting-b-updating.c7",
+    "section": "c-forgetting-b-updating",
+    "type": "definition",
+    "text": "Model editing performs direct modifications within the model's parameter space to correct or inject knowledge without full retraining.",
+    "page": 58
+  },
+  {
+    "id": "c-forgetting-b-updating.c8",
+    "section": "c-forgetting-b-updating",
+    "type": "claim",
+    "text": "The key challenge in memory updating is the stability-plasticity dilemma: determining when to overwrite existing knowledge versus treating new information as noise.",
+    "page": 58
+  },
+  {
+    "id": "c-forgetting-b-updating.c9",
+    "section": "c-forgetting-b-updating",
+    "type": "definition",
+    "text": "Memory forgetting deliberately removes outdated, redundant, or low-value information to free capacity and maintain focus on salient knowledge.",
+    "page": 58
+  },
+  {
+    "id": "c-forgetting-b-updating.c10",
+    "section": "c-forgetting-b-updating",
+    "type": "method",
+    "text": "Forgetting mechanisms are categorized into time-based, frequency-based, and importance-driven forgetting corresponding to creation time, retrieval activity, and semantic valuation.",
+    "page": 58
+  },
+  {
+    "id": "c-forgetting-b-updating.c11",
+    "section": "c-forgetting-b-updating",
+    "type": "definition",
+    "text": "Time-based forgetting emulates human memory fading by decaying memory strength over time based on creation time.",
+    "page": 58
+  },
+  {
+    "id": "c-forgetting-b-updating.c12",
+    "section": "c-forgetting-b-updating",
+    "type": "method",
+    "text": "Frequency-based forgetting retains frequently accessed entries while discarding inactive ones, using strategies like LFU, LRU, or Bloom filters.",
+    "page": 59
+  },
+  {
+    "id": "c-forgetting-b-updating.c13",
+    "section": "c-forgetting-b-updating",
+    "type": "result",
+    "text": "Importance-driven forgetting integrates temporal, frequency, and semantic signals to retain high-value knowledge, evolving from numeric scoring to LLM-based semantic evaluation.",
+    "page": 59
+  },
+  {
+    "id": "c-forgetting-b-updating.c14",
+    "section": "c-forgetting-b-updating",
+    "type": "caveat",
+    "text": "Heuristic forgetting mechanisms like LRU may eliminate long-tail knowledge that is seldom accessed but essential for correct decision-making.",
+    "page": 59
+  },
+  {
+    "id": "c-forgetting-b-updating.c15",
+    "section": "c-forgetting-b-updating",
+    "type": "result",
+    "text": "MemEvolve proposes a meta-evolutionary framework that jointly evolves both agents' experiential knowledge and their underlying memory architecture.",
+    "page": 59
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c0",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "definition",
+    "text": "Memory retrieval in agentic systems can be decomposed into four sequential phases: timing and intent, query construction, retrieval strategies, and post-retrieval processing.",
+    "page": 60
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c1",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "result",
+    "text": "MIRIX performs retrieval from all six memory databases for each query, reflecting a design that prioritizes comprehensive memory access over selectivity.",
+    "page": 60
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c2",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "caveat",
+    "text": "MemGPT and MemTool allow the LLM itself to invoke retrieval functions but rely on static judgments from the query alone, neglecting the model's dynamically evolving cognitive state.",
+    "page": 60
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c3",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "method",
+    "text": "ComoRAG and PRIME integrate fast-slow thinking by first producing a fast response and triggering deeper retrieval only if the initial reasoning is deemed insufficient.",
+    "page": 60
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c4",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "method",
+    "text": "MemGen converts explicit agent-level retrieval decisions into a latent, trainable process via memory triggers that detect critical retrieval moments from latent rollout states.",
+    "page": 60
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c5",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "result",
+    "text": "H-MEM introduces an index-based coarse-to-fine hierarchical routing mechanism that narrows the search space from the domain layer to the episode layer, improving retrieval precision and mitigating information overload.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c6",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "caveat",
+    "text": "When an agent overestimates its internal knowledge and fails to trigger retrieval, the system can enter a silent failure mode leading to hallucinated outputs.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c7",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "method",
+    "text": "Query decomposition breaks complex queries into sub-queries to enable modular retrieval and reasoning over intermediate results, alleviating the one-shot retrieval bottleneck.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c8",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "method",
+    "text": "AgentKB uses a two-stage process where a teacher model observes student model failures and generates fine-grained sub-queries, improving precision in knowledge-intensive tasks.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c9",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "method",
+    "text": "HyDE instructs an LLM to generate a hypothetical document and uses its semantic embedding for retrieval, bridging the gap between the user query and the target memory.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c10",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "method",
+    "text": "MemoRAG extends HyDE by conditioning hypothetical document generation on compressed global memory, enabling better capture of implicit information needs.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c11",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "result",
+    "text": "Auto-RAG integrates both query decomposition and rewriting by selecting the best-performing strategy per task, demonstrating that retrieval query quality substantially impacts reasoning performance.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c12",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "claim",
+    "text": "Recent studies increasingly emphasize the retrieval construction process itself, shifting the role of memory toward serving retrieval rather than focusing solely on memory architecture design.",
+    "page": 61
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c13",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "caveat",
+    "text": "Lexical retrieval methods like TF-IDF and BM25 are effective in precision-oriented scenarios but struggle to capture semantic variations and contextual relationships.",
+    "page": 62
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c14",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "claim",
+    "text": "Semantic retrieval encodes queries and memory entries into a shared embedding space and is the default choice in most agentic memory frameworks, though semantic drift and forced top-K retrieval can introduce noise.",
+    "page": 62
+  },
+  {
+    "id": "four-steps-ofmemoryretrieval.c15",
+    "section": "four-steps-ofmemoryretrieval",
+    "type": "result",
+    "text": "Graph retrieval leverages topological structure in addition to semantic signals, enabling stronger multi-hop reasoning and long-range dependency exploration.",
+    "page": 62
+  }
+]
