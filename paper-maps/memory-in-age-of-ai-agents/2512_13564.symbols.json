@@ -1,0 +1,1160 @@
+[
+  {
+    "symbol": "1D",
+    "meaning": "One-dimensional token-level memory structure (flat list)",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "twotypesof-factual-memory"
+    ]
+  },
+  {
+    "symbol": "2D",
+    "meaning": "Shorthand for Planar Memory, referring to a single-layer organizational topology without hierarchical levels or cross-layer references",
+    "defined_in": "definitionof-planar-2d-memory",
+    "defined_at_page": 20,
+    "used_in": [
+      "definitionof-planar-2d-memory",
+      "twotypesof-factual-memory"
+    ]
+  },
+  {
+    "symbol": "3D",
+    "meaning": "Shorthand for Hierarchical Memory, introduced as the next memory form following Planar (2D) Memory",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "definitionof-planar-2d-memory",
+      "twotypesof-factual-memory"
+    ]
+  },
+  {
+    "symbol": "3D Memory",
+    "meaning": "Volumetric memory space formed by combining relational (lateral) and hierarchical (vertical) dimensions in Hierarchical Memory",
+    "defined_in": "definitionof-hierarchical-3d-m",
+    "defined_at_page": 21,
+    "used_in": [
+      "definitionof-hierarchical-3d-m"
+    ]
+  },
+  {
+    "symbol": "A-MEM",
+    "meaning": "A graph-based agent memory system by Xu et al. (2025c)",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "engineering"
+    ]
+  },
+  {
+    "symbol": "AGI",
+    "meaning": "Artificial General Intelligence",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "8"
+    ]
+  },
+  {
+    "symbol": "API",
+    "meaning": "Application Programming Interface, serving as universal interface for encapsulated skills",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "threetypes-ofexperientialmemor"
+    ]
+  },
+  {
+    "symbol": "BM25",
+    "meaning": "Best Match 25, a lexical retrieval method refining TF-IDF with term frequency saturation and document length normalization",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "four-steps-ofmemoryretrieval"
+    ]
+  },
+  {
+    "symbol": "Cognitive planning",
+    "meaning": "Multi-turn working memory strategy that creates and maintains an externalized plan or world model to guide future agent actions",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 45,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "ComposeRAG",
+    "meaning": "A modular RAG context engineering framework",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "E",
+    "meaning": "Memory evolution operator that consolidates, resolves conflicts, discards, or restructures memory candidates",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "Environment factual memory",
+    "meaning": "Facts that sustain consistency with the external world, such as document states, resource availability, and capabilities of other agents",
+    "defined_in": "twotypesof-factual-memory",
+    "defined_at_page": 33,
+    "used_in": [
+      "twotypesof-factual-memory"
+    ]
+  },
+  {
+    "symbol": "Exp",
+    "meaning": "Experiential memory type storing experience trajectories or insights",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 15,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "ExperientialMemory",
+    "meaning": "The agent's procedural and strategic knowledge base accumulated from past trajectories, failures, and successes",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 31,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "F",
+    "meaning": "Memory formation operator that transforms informational artifacts into memory candidates",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "FT",
+    "meaning": "Fine-tuning optimization strategy",
+    "defined_in": "twomajor-types-ofparametricmem",
+    "defined_at_page": 22,
+    "used_in": [
+      "twomajor-types-ofparametricmem"
+    ]
+  },
+  {
+    "symbol": "Fact",
+    "meaning": "Factual memory type storing factual information",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 15,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "FactualMemory",
+    "meaning": "The agent's declarative knowledge base storing explicit facts, user preferences, and environmental states",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 31,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "FlashRAG",
+    "meaning": "A modular RAG context engineering framework",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "Flat Memory (1D)",
+    "meaning": "Token-level memory with no explicit inter-unit topology, storing units as sequences or bags",
+    "defined_in": "threemajortypesof-token-levelm",
+    "defined_at_page": 13,
+    "used_in": [
+      "threemajortypesof-token-levelm",
+      "a-flat-memory-1d-b-planar-mem",
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "GMM",
+    "meaning": "Gaussian Mixture Model, used in RAPTOR for recursive clustering before summarization",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "fivecategoriesof-memory-format"
+    ]
+  },
+  {
+    "symbol": "GRPO",
+    "meaning": "Group Relative Policy Optimization, a reinforcement learning algorithm used to optimize summarization in MemAgent",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "fivecategoriesof-memory-format"
+    ]
+  },
+  {
+    "symbol": "Generate",
+    "meaning": "Latent memory category where auxiliary models synthesize embeddings to interfere with or augment the LLM's forward pass",
+    "defined_in": "b-resue-c-transform",
+    "defined_at_page": 25,
+    "used_in": [
+      "b-resue-c-transform"
+    ]
+  },
+  {
+    "symbol": "Gist tokens",
+    "meaning": "Special tokens generated by a language model after processing a long prompt to compress it into reusable latent representations",
+    "defined_in": "threemajortypesof-latentmemory",
+    "defined_at_page": 26,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "H2 tokens",
+    "meaning": "Special high-importance tokens retained alongside recent tokens in the H2O eviction strategy to reduce memory footprint",
+    "defined_in": "memory-memory-memory",
+    "defined_at_page": 29,
+    "used_in": [
+      "memory-memory-memory"
+    ]
+  },
+  {
+    "symbol": "Hard condensation",
+    "meaning": "Input condensation paradigm that discretely selects tokens based on importance metrics such as perplexity",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 43,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "Hierarchical Memory (3D)",
+    "meaning": "Token-level memory structured across multiple layers with inter-layer links forming a stratified organization",
+    "defined_in": "threemajortypesof-token-levelm",
+    "defined_at_page": 13,
+    "used_in": [
+      "threemajortypesof-token-levelm",
+      "a-flat-memory-1d-b-planar-mem",
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "Hierarchical folding",
+    "meaning": "Multi-turn working memory strategy that decomposes task trajectories by subgoals and folds completed sub-trajectories into concise summaries",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 45,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "HyDE",
+    "meaning": "Hypothetical Document Embeddings, a query rewriting method that generates a hypothetical document and uses its embedding for retrieval",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "four-steps-ofmemoryretrieval"
+    ]
+  },
+  {
+    "symbol": "Hybrid condensation",
+    "meaning": "Input condensation paradigm combining global semantic adapters (soft) with token-level retention probabilities (hard)",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 43,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "I = {1,...,N}",
+    "meaning": "Index set of agents; N=1 for single-agent, N>1 for multi-agent",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "K/N",
+    "meaning": "Replacement ratio used in stochastic token replacement to simulate exponential forgetting, where K tokens are replaced out of N total memory tokens",
+    "defined_in": "c-forgetting-b-updating",
+    "defined_at_page": 58,
+    "used_in": [
+      "c-forgetting-b-updating"
+    ]
+  },
+  {
+    "symbol": "KL Tuning",
+    "meaning": "KL divergence distillation used as an optimization strategy for injecting knowledge without extra parameters",
+    "defined_in": "twomajor-types-ofparametricmem",
+    "defined_at_page": 22,
+    "used_in": [
+      "twomajor-types-ofparametricmem"
+    ]
+  },
+  {
+    "symbol": "KNN",
+    "meaning": "K-nearest-neighbor retrieval used to index and access stored KV pairs as latent memory",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "KV cache",
+    "meaning": "Key-Value cache storing intermediate attention states in a transformer for reuse",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "a-generate",
+      "engineering",
+      "definitionof-latent-memory",
+      "memory-memory-memory"
+    ]
+  },
+  {
+    "symbol": "KV caches",
+    "meaning": "Key-value caches representing prior computational states reused in the Reuse category of latent memory",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "b-resue-c-transform"
+    ]
+  },
+  {
+    "symbol": "KV states",
+    "meaning": "Key-value cache states used as a latent memory format in transformer models",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "fivecategoriesof-memory-format"
+    ]
+  },
+  {
+    "symbol": "KV-cache",
+    "meaning": "Key-value cache storing internal activations from transformer forward passes, used as latent memory",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "L1, L2",
+    "meaning": "Tree-like type and subclass index tiers in EMG-RAG's three-tier Editable Memory Graph",
+    "defined_in": "definitionof-hierarchical-3d-m",
+    "defined_at_page": 21,
+    "used_in": [
+      "definitionof-hierarchical-3d-m"
+    ]
+  },
+  {
+    "symbol": "L3",
+    "meaning": "Entity-level memory graph tier in EMG-RAG's three-tier Editable Memory Graph",
+    "defined_in": "definitionof-hierarchical-3d-m",
+    "defined_at_page": 21,
+    "used_in": [
+      "definitionof-hierarchical-3d-m"
+    ]
+  },
+  {
+    "symbol": "LFU",
+    "meaning": "Least Frequently Used policy for evicting low-frequency memory entries",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "c-forgetting-b-updating"
+    ]
+  },
+  {
+    "symbol": "LLM",
+    "meaning": "Large Language Model",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "8"
+    ]
+  },
+  {
+    "symbol": "LRU",
+    "meaning": "Least Recently Used policy for removing long-unused memory items",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "c-forgetting-b-updating"
+    ]
+  },
+  {
+    "symbol": "Latent Emb.",
+    "meaning": "Latent embeddings extracted from LLM internals for downstream processing",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "a-generate"
+    ]
+  },
+  {
+    "symbol": "Latent Memory",
+    "meaning": "Memory represented in the model's internal hidden states, continuous representations, or evolving latent structures",
+    "defined_in": "threemajormemoryforms",
+    "defined_at_page": 13,
+    "used_in": [
+      "threemajormemoryforms"
+    ]
+  },
+  {
+    "symbol": "LoCoMo",
+    "meaning": "A benchmark for long-context dialogue evaluation representing agent memory evaluation settings",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "engineering"
+    ]
+  },
+  {
+    "symbol": "LoRA",
+    "meaning": "Low-Rank Adaptation auxiliary model used to augment LLM internal representations",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "a-generate",
+      "twomajor-types-ofparametricmem"
+    ]
+  },
+  {
+    "symbol": "LoRA fragments",
+    "meaning": "Low-rank adapter-generated latent memory fragments dynamically inserted during decoding in MemGen",
+    "defined_in": "threemajortypesof-latentmemory",
+    "defined_at_page": 27,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "LongMemEval",
+    "meaning": "A benchmark for evaluating long-term memory in multi-turn interaction settings",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "engineering"
+    ]
+  },
+  {
+    "symbol": "M",
+    "meaning": "Space of admissible memory configurations",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "MCP",
+    "meaning": "Model Context Protocol, a standardized interface format for skill-based memory",
+    "defined_in": "threetypes-ofexperientialmemor",
+    "defined_at_page": 38,
+    "used_in": [
+      "threetypes-ofexperientialmemor"
+    ]
+  },
+  {
+    "symbol": "MDP",
+    "meaning": "Markov Decision Process, used as a formulation for iterative workspace reconstruction in long-horizon research tasks",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "MLP weights",
+    "meaning": "Online-updated multilayer perceptron weights used by Titans to compress long-range information into latent vectors",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "M^form_{t+1}",
+    "meaning": "Memory candidates formed at step t+1 before evolution",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "M_t",
+    "meaning": "Evolving memory state at time t, residing in the space M of admissible memory configurations",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "Mamba",
+    "meaning": "A state-space model architecture (Gu and Dao, 2024; Lieber et al., 2024) designed to better retain information as sequence length grows",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "engineering"
+    ]
+  },
+  {
+    "symbol": "Mem0g",
+    "meaning": "A graph-structured agent memory system by Chhikara et al. (2025)",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "engineering"
+    ]
+  },
+  {
+    "symbol": "MemCell",
+    "meaning": "A newly generated memory unit in EverMemOS that is compared against MemScene centroids for potential merging",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "c-forgetting-b-updating"
+    ]
+  },
+  {
+    "symbol": "MemScene",
+    "meaning": "A cluster-level memory grouping in EverMemOS used as the target for merging similar MemCells",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "c-forgetting-b-updating"
+    ]
+  },
+  {
+    "symbol": "Memory",
+    "meaning": "A high-level module or component in LLM-based agent architectures responsible for storing and retrieving information",
+    "defined_in": "memory",
+    "defined_at_page": 9,
+    "used_in": [
+      "memory"
+    ]
+  },
+  {
+    "symbol": "MemoryForm",
+    "meaning": "The content of stored memory units",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 15,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "MemoryStructure",
+    "meaning": "The organization mechanism of stored memory units",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 16,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "MoA",
+    "meaning": "Mixture of Agents or related architecture used for long context processing",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "memory"
+    ]
+  },
+  {
+    "symbol": "Multi",
+    "meaning": "Indicator of multimodal capability; checkmark denotes support beyond text (e.g., visual)",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 15,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "Multi-turn Working Memory",
+    "meaning": "Working memory operating across sequential interactions to maintain task states, goals, and constraints through continuous read-execute-update loops",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 43,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "NSA",
+    "meaning": "A long context processing architecture for agent memory",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "memory"
+    ]
+  },
+  {
+    "symbol": "O(n\u00b2)",
+    "meaning": "Quadratic computational complexity of full-sequence processing in transformers",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "fivecategoriesof-memory-format"
+    ]
+  },
+  {
+    "symbol": "OWL",
+    "meaning": "Web Ontology Language, used in D-SMART for constructing ontology-compliant memory graphs",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "fivecategoriesof-memory-format"
+    ]
+  },
+  {
+    "symbol": "PE",
+    "meaning": "Prompt engineering optimization strategy",
+    "defined_in": "twomajor-types-ofparametricmem",
+    "defined_at_page": 22,
+    "used_in": [
+      "twomajor-types-ofparametricmem",
+      "threetypes-ofexperientialmemor",
+      "twotypesof-factual-memory",
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "PPO",
+    "meaning": "Proximal Policy Optimization, a reinforcement learning algorithm used to optimize summarization in Mem1",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "fivecategoriesof-memory-format"
+    ]
+  },
+  {
+    "symbol": "Parametric Memory",
+    "meaning": "Memory stored within model parameters, encoded through statistical patterns and accessed implicitly during forward computation",
+    "defined_in": "threemajormemoryforms",
+    "defined_at_page": 13,
+    "used_in": [
+      "threemajormemoryforms"
+    ]
+  },
+  {
+    "symbol": "Planar Memory (2D)",
+    "meaning": "Token-level memory with a single-layer structured organization (graph, tree, table) and no cross-layer relations",
+    "defined_in": "threemajortypesof-token-levelm",
+    "defined_at_page": 13,
+    "used_in": [
+      "threemajortypesof-token-levelm",
+      "a-flat-memory-1d-b-planar-mem",
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "Q",
+    "meaning": "Task specification (user instruction, goal description, or external constraints), fixed within a task",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "R",
+    "meaning": "Memory retrieval operator that constructs a task-aware query and returns relevant memory content",
+    "defined_in": "keyquestions",
+    "defined_at_page": 8,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "RAG",
+    "meaning": "Retrieval Augmented Generation, a related but distinct concept from agent memory",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "title",
+      "memory",
+      "rag"
+    ]
+  },
+  {
+    "symbol": "RFT",
+    "meaning": "Reinforcement fine-tuning, a gradient-based optimization method",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "twotypesof-factual-memory"
+    ]
+  },
+  {
+    "symbol": "RL",
+    "meaning": "Reinforcement learning optimization strategy",
+    "defined_in": "threetypes-ofexperientialmemor",
+    "defined_at_page": 38,
+    "used_in": [
+      "twomajor-types-ofparametricmem",
+      "threetypes-ofexperientialmemor",
+      "twotypesof-factual-memory",
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "RMM",
+    "meaning": "A memory management framework (Tan et al., 2025c) that performs local consolidation by retrieving top-K similar memories and using an LLM to decide merging",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "threemechanismsof-memoryevolut"
+    ]
+  },
+  {
+    "symbol": "RWKV",
+    "meaning": "A recurrent architecture LLM (Peng et al., 2023) that modifies model internals for longer effective context retention",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "engineering"
+    ]
+  },
+  {
+    "symbol": "ReTool",
+    "meaning": "A tool-integrated reasoning RAG system",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "Reuse",
+    "meaning": "Latent memory category that directly propagates prior computational states such as KV caches or intermediate embeddings",
+    "defined_in": "b-resue-c-transform",
+    "defined_at_page": 25,
+    "used_in": [
+      "b-resue-c-transform"
+    ]
+  },
+  {
+    "symbol": "S",
+    "meaning": "Environment state space",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "SFT",
+    "meaning": "Supervised Fine-Tuning optimization strategy",
+    "defined_in": "twomajor-types-ofparametricmem",
+    "defined_at_page": 22,
+    "used_in": [
+      "twomajor-types-ofparametricmem",
+      "threetypes-ofexperientialmemor",
+      "twotypesof-factual-memory",
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "SLM",
+    "meaning": "Small Language Model used as an auxiliary model in conjunction with the LLM",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "a-generate"
+    ]
+  },
+  {
+    "symbol": "Sentinel tokens",
+    "meaning": "Special tokens inserted at chunk boundaries to aggregate local semantic information into a single latent token",
+    "defined_in": "threemajortypesof-latentmemory",
+    "defined_at_page": 26,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "Single-turn Working Memory",
+    "meaning": "Working memory operating within a single forward pass to condense and abstract massive immediate inputs such as long documents or multimodal streams",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 43,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "Soft condensation",
+    "meaning": "Input condensation paradigm that encodes variable-length contexts into dense latent vectors or memory slots",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 43,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "Soft tokens",
+    "meaning": "Instance-specific latent tokens generated from the last hidden state to represent compressed context",
+    "defined_in": "threemajortypesof-latentmemory",
+    "defined_at_page": 26,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "State consolidation",
+    "meaning": "Multi-turn working memory strategy that maps growing interaction trajectories into fixed-size state spaces via dynamic updates",
+    "defined_in": "twotypesof-workingmemory",
+    "defined_at_page": 45,
+    "used_in": [
+      "twotypesof-workingmemory"
+    ]
+  },
+  {
+    "symbol": "Summary vectors",
+    "meaning": "Continuous vector representations encoding entire long documents as soft prompts for reuse during inference",
+    "defined_in": "threemajortypesof-latentmemory",
+    "defined_at_page": 27,
+    "used_in": [
+      "threemajortypesof-latentmemory"
+    ]
+  },
+  {
+    "symbol": "TF-IDF",
+    "meaning": "Term Frequency-Inverse Document Frequency, a lexical retrieval measure of keyword importance based on term frequency and inverse document frequency",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "four-steps-ofmemoryretrieval"
+    ]
+  },
+  {
+    "symbol": "Temporal Knowledge Graph",
+    "meaning": "Formal representation of agent memory in Zep, incorporating temporal information and community partitioning",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "definitionof-hierarchical-3d-m"
+    ]
+  },
+  {
+    "symbol": "ToRL",
+    "meaning": "A tool-integrated reasoning RAG system",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "Token-level Memory",
+    "meaning": "Memory organized as explicit and discrete units that can be individually accessed, modified, and reconstructed",
+    "defined_in": "threemajormemoryforms",
+    "defined_at_page": 13,
+    "used_in": [
+      "threemajormemoryforms"
+    ]
+  },
+  {
+    "symbol": "ToolLLM",
+    "meaning": "A tool-integrated reasoning RAG system",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "Toolformer",
+    "meaning": "A tool-integrated reasoning RAG system",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "Transform",
+    "meaning": "Latent memory category that compresses internal states through token selection, merging, or projection to maintain efficient context",
+    "defined_in": "b-resue-c-transform",
+    "defined_at_page": 25,
+    "used_in": [
+      "b-resue-c-transform"
+    ]
+  },
+  {
+    "symbol": "Type",
+    "meaning": "Functional category of memory: Fact (factual), Exp (experiential), Work (working), E&W (experiential and working), F&E (factual and experiential)",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 15,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "User factual memory",
+    "meaning": "Facts that sustain interaction consistency between humans and agents, including identities, stable preferences, task constraints, and historical commitments",
+    "defined_in": "twotypesof-factual-memory",
+    "defined_at_page": 33,
+    "used_in": [
+      "twotypesof-factual-memory"
+    ]
+  },
+  {
+    "symbol": "VTool-R1",
+    "meaning": "A tool-integrated reasoning RAG system",
+    "defined_in": "rag",
+    "defined_at_page": 9,
+    "used_in": [
+      "rag"
+    ]
+  },
+  {
+    "symbol": "Work",
+    "meaning": "Working memory type for short-term active processing",
+    "defined_in": "definitionof-flat-1d-memory",
+    "defined_at_page": 15,
+    "used_in": [
+      "definitionof-flat-1d-memory"
+    ]
+  },
+  {
+    "symbol": "WorkingMemory",
+    "meaning": "The agent's capacity-limited active scratchpad for context management during a single task or session",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 31,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "a_t",
+    "meaning": "Action executed at time step t",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "adaptability",
+    "meaning": "Ability to personalize behavior based on stored user profiles and historical feedback",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 33,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "cognitive loop",
+    "meaning": "The encoding-processing-retrieval cycle linking the three memory systems",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 31,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "coherence",
+    "meaning": "Robust context awareness enabling logically connected dialogue through recall of interaction history",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 33,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "consistency",
+    "meaning": "Stable behavior and self-presentation over time, avoiding contradictions",
+    "defined_in": "threeprimarymemory-functions",
+    "defined_at_page": 33,
+    "used_in": [
+      "threeprimarymemory-functions"
+    ]
+  },
+  {
+    "symbol": "dynamics",
+    "meaning": "The temporal processes of memory formation, evolution, and retrieval",
+    "defined_in": "title",
+    "defined_at_page": 1,
+    "used_in": [
+      "title"
+    ]
+  },
+  {
+    "symbol": "forms",
+    "meaning": "The structural realizations of agent memory (token-level, parametric, latent)",
+    "defined_in": "title",
+    "defined_at_page": 1,
+    "used_in": [
+      "title"
+    ]
+  },
+  {
+    "symbol": "functions",
+    "meaning": "The functional roles of agent memory (factual, experiential, working)",
+    "defined_in": "title",
+    "defined_at_page": 1,
+    "used_in": [
+      "title"
+    ]
+  },
+  {
+    "symbol": "h^i_t",
+    "meaning": "Portion of interaction history visible to agent i at time t",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "inter-unit structural organization",
+    "meaning": "The topological arrangement among stored discrete memory units, ranging from no explicit topology to multi-layer topologies",
+    "defined_in": "definitionof-token-levelmemory",
+    "defined_at_page": 13,
+    "used_in": [
+      "definitionof-token-levelmemory"
+    ]
+  },
+  {
+    "symbol": "latent embeddings",
+    "meaning": "Compressed vector representations used to implicitly encode memory within the model's representational space",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "definitionof-latent-memory"
+    ]
+  },
+  {
+    "symbol": "long-term memory",
+    "meaning": "Persistent, cross-session store for accumulated knowledge in an agent system",
+    "defined_in": "memory-memory-memory",
+    "defined_at_page": 31,
+    "used_in": [
+      "memory-memory-memory"
+    ]
+  },
+  {
+    "symbol": "m^i_t",
+    "meaning": "Memory-derived signal retrieved for agent i at time step t",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "o^i_t",
+    "meaning": "Observation received by agent i at time t, derived from state and interaction history",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "short-term memory",
+    "meaning": "Transient, in-session workspace for active reasoning in an agent system",
+    "defined_in": "memory-memory-memory",
+    "defined_at_page": 31,
+    "used_in": [
+      "memory-memory-memory"
+    ]
+  },
+  {
+    "symbol": "token",
+    "meaning": "A broad representational discrete unit including text tokens, visual tokens, and audio frames that can be written, retrieved, reorganized, and revised outside model parameters",
+    "defined_in": "definitionof-token-levelmemory",
+    "defined_at_page": 13,
+    "used_in": [
+      "definitionof-token-levelmemory"
+    ]
+  },
+  {
+    "symbol": "token-entropy criterion",
+    "meaning": "A measure used by SirLLM to estimate token importance for selective KV entry retention",
+    "defined_in": "memory-memory-memory",
+    "defined_at_page": 29,
+    "used_in": [
+      "memory-memory-memory"
+    ]
+  },
+  {
+    "symbol": "token-level memory",
+    "meaning": "A form of memory that stores information as persistent, discrete, externally accessible and inspectable units organized by inter-unit structural topology",
+    "defined_in": "definitionof-token-levelmemory",
+    "defined_at_page": 13,
+    "used_in": [
+      "definitionof-token-levelmemory"
+    ]
+  },
+  {
+    "symbol": "top-K",
+    "meaning": "The K most similar existing memory candidates retrieved for a new topic memory during local consolidation",
+    "defined_in": null,
+    "defined_at_page": null,
+    "used_in": [
+      "threemechanismsof-memoryevolut",
+      "four-steps-ofmemoryretrieval"
+    ]
+  },
+  {
+    "symbol": "\u03a8(s_{t+1} | s_t, a_t)",
+    "meaning": "Controlled stochastic state transition model",
+    "defined_in": "keyquestions",
+    "defined_at_page": 6,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "\u03c0_i",
+    "meaning": "Policy of agent i mapping observation, memory signal, and task specification to an action",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "\u03c4",
+    "meaning": "Full execution trajectory of the agent system: sequence of states, observations, and actions",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "\u03d5_t",
+    "meaning": "Informational artifacts produced by the agent at time step t (tool outputs, reasoning traces, plans, etc.)",
+    "defined_in": "keyquestions",
+    "defined_at_page": 7,
+    "used_in": [
+      "keyquestions"
+    ]
+  },
+  {
+    "symbol": "\u22a5",
+    "meaning": "Null retrieval strategy (no memory retrieved at a given time step)",
+    "defined_in": "keyquestions",
+    "defined_at_page": 8,
+    "used_in": [
+      "keyquestions"
+    ]
+  }
+]
